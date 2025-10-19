@@ -185,10 +185,12 @@ def run(dataSet,
 
 			num_errors = np.sum(target_run)
 			
-			train_X = all_matrix_train																		
+			train_X = all_matrix_train
 			train_y = target_run
 
-			classifier.run_cross_validation(train_X, train_y, num_errors, column_id)	#fold = num_errors
+			# 确保交叉验证的折数至少为1，避免num_errors为0时出错
+			folds = max(1, num_errors)
+			classifier.run_cross_validation(train_X, train_y, folds, column_id)	#fold = num_errors
 			# train_X, train_y训练 all_matrix_train, all_matrix_test预测
 			y_pred_train, res_train, y_pred_test, res_test = classifier.train_predict_all(train_X, train_y, column_id, all_matrix_train, all_matrix_test)	
 			all_error_status[:, column_id] = res_test
