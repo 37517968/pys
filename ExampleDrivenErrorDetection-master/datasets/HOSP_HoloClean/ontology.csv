@@ -1,0 +1,18 @@
+column_name,related_columns,relation_type,relation_description
+provider number,"['hospital name', 'address1', 'city', 'state', 'zip code', 'county name', 'phone number', 'hospital type', 'hospital owner', 'emergency service', 'condition', 'measure code', 'measure name', 'score', 'sample', 'stateavg']",external identifier,"The provider number is an external identifier that links to other records or systems, and it is used to identify the hospital or provider in the dataset."
+hospital name,['provider number'],foreign key,"The hospital name is a unique identifier for the hospital, which is linked to the provider number to reference the same hospital in other records."
+address1,"['city', 'state', 'zip code']",geographic location,"Address1 is a geographic location field that is associated with the city, state, and zip code to provide a complete address for the hospital."
+city,['address1'],dependency,City is a dependent field that is derived or associated with address1 to provide the location of the hospital.
+state,['address1'],dependency,State is a dependent field that is derived or associated with address1 to provide the location of the hospital.
+zip code,['address1'],dependency,Zip code is a dependent field that is derived or associated with address1 to provide the location of the hospital.
+county name,['state'],dependency,County name is a dependent field that is derived or associated with state to provide the jurisdictional information of the hospital.
+phone number,['hospital name'],dependency,Phone number is a dependent field that is derived or associated with hospital name to provide contact information for the hospital.
+hospital type,['hospital owner'],dependency,Hospital type is a dependent field that is derived or associated with hospital owner to provide the type of care the hospital provides.
+hospital owner,['hospital name'],dependency,Hospital owner is a dependent field that is derived or associated with hospital name to provide the ownership information of the hospital.
+emergency service,['hospital name'],dependency,Emergency service is a dependent field that is derived or associated with hospital name to indicate whether the hospital provides emergency services.
+condition,"['measure code', 'measure name']",dependency,Condition is a dependent field that is derived or associated with measure code and measure name to indicate the specific condition being studied.
+measure code,"['measure name', 'stateavg']",dependency,Measure code is a dependent field that is derived or associated with measure name and stateavg to identify the specific measure being used in the dataset.
+measure name,"['measure code', 'stateavg']",dependency,Measure name is a dependent field that is derived or associated with measure code and stateavg to provide the name of the specific measure being used in the dataset.
+score,"['sample', 'stateavg']",dependency,Score is a dependent field that is derived or associated with sample and stateavg to indicate the performance or outcome of the patients in the study.
+sample,"['score', 'stateavg']",dependency,Sample is a dependent field that is derived or associated with score and stateavg to indicate the number of patients included in the study.
+stateavg,"['measure code', 'measure name', 'score', 'sample']",dependency,"Stateavg is a dependent field that is derived or associated with measure code, measure name, score, and sample to provide the average performance or outcome for the state."

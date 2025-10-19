@@ -1,0 +1,2802 @@
+row_index,column_index,column_name,clean_value,dirty_value
+0,2,hospital name,fairbanks memorial hospital,fairbqnks memorial hospital
+0,14,condition,heart attack,heart atack
+1,10,phone number,2565335356,2565335365
+2,2,hospital name,cullman regional medical center,culman regional medical center
+3,1,provider number,20123,201233
+3,8,zip code,99701,9970
+3,10,phone number,9074567890,9074567891
+3,17,score,89%,88%
+3,18,sample,100 patients,105 patients
+4,1,provider number,30020,300200
+4,8,zip code,80906,8090
+4,10,phone number,7195551234,7195551235
+4,17,score,78%,80%
+4,18,sample,50 patients,55 patients
+5,1,provider number,20025,20027
+5,8,zip code,62701,62711
+5,10,phone number,2175551234,2175551236
+5,17,score,84%,86%
+5,18,sample,130 patients,135 patients
+6,1,provider number,30012,30021
+6,8,zip code,90001,90011
+6,17,score,91%,89%
+6,18,sample,75 patients,70 patients
+7,1,provider number,40033,40023
+7,8,zip code,32065,32064
+7,17,score,88%,85%
+7,18,sample,95 patients,90 patients
+8,1,provider number,20023,20032
+8,8,zip code,99669,99668
+8,17,score,79%,80%
+8,18,sample,42 patients,40 patients
+9,4,address2,empty,unit 101
+10,4,address2,empty,suite 200
+12,2,hospital name,phoenix children's hospital,phoenix childrens hospital
+12,4,address2,empty,apt 102
+12,8,zip code,85016,85015
+12,10,phone number,6029331000,6029331001
+12,17,score,94%,93%
+13,2,hospital name,saint joseph hospital,saint josephs hospital
+13,4,address2,empty,suite 10
+13,8,zip code,80218,80220
+13,10,phone number,3038122000,3038122001
+13,17,score,82%,81%
+14,4,address2,suite 200,suite 201
+14,8,zip code,35209,35210
+14,10,phone number,2055551212,2055551213
+14,17,score,79%,78%
+15,1,provider number,20009,20090
+15,2,hospital name,northern lights medical center,northern light medical center
+15,17,score,88%,82%
+16,1,provider number,30017,30071
+16,17,score,91%,89%
+17,1,provider number,30028,30228
+17,17,score,88%,86%
+21,1,provider number,30012,30021
+21,8,zip code,90210,90211
+21,10,phone number,3109876543,3109876540
+21,17,score,79%,78%
+21,18,sample,90 patients,91 patients
+22,1,provider number,40029,40092
+22,8,zip code,33130,33131
+22,10,phone number,3058765432,3058765435
+22,17,score,91%,90%
+22,18,sample,45 patients,46 patients
+23,1,provider number,10018,10081
+23,10,phone number,8504167000,8504167001
+23,17,score,79%,80%
+23,18,sample,45 patients,44 patients
+24,1,provider number,20009,20019
+24,4,address2,empty,suite 200
+24,5,address3,empty,building C
+24,8,zip code,99508,99518
+24,10,phone number,9075622211,9075622212
+24,17,score,74%,71%
+24,18,sample,33 patients,35 patients
+25,1,provider number,10037,10073
+25,4,address2,empty,unit B
+25,5,address3,empty,building D
+25,8,zip code,35768,35761
+25,10,phone number,2562183700,2562183701
+25,17,score,88%,85%
+25,18,sample,140 patients,145 patients
+26,1,provider number,20023,20032
+26,4,address2,suite 100,suite 101
+26,5,address3,building A,building B
+26,8,zip code,62701,62703
+26,10,phone number,2175551234,2175551235
+26,17,score,95%,93%
+26,18,sample,150 patients,155 patients
+27,1,provider number,30012,30102
+28,8,zip code,12345,12346
+29,1,provider number,10010,10019
+33,4,address2,empty,suite 200
+33,6,city,huntsville,hunstville
+33,8,zip code,35801,35810
+33,10,phone number,2562651000,2562651001
+33,17,score,88%,87%
+33,18,sample,215 patients,200 patients
+34,4,address2,empty,building A
+34,6,city,mobile,mobil
+34,8,zip code,36607,36617
+34,10,phone number,2514352400,2514352401
+34,17,score,78%,76%
+34,18,sample,44 patients,42 patients
+35,4,address2,empty,floor 3
+35,6,city,montgomery,montgomer
+35,8,zip code,36116,36111
+35,10,phone number,3342882100,3342882101
+35,17,score,78%,79%
+35,18,sample,40 patients,39 patients
+36,1,provider number,10023,10032
+36,2,hospital name,flowers hospital,flowrs hospital
+36,4,address2,empty,unit 200
+36,5,address3,empty,building B
+36,8,zip code,36305,36350
+36,10,phone number,3347935000,3347935001
+36,15,measure code,ami-8a,ami-8b
+36,17,score,85%,86%
+36,18,sample,33 patients,35 patients
+36,19,stateavg,al_amix8a,al_amix8b
+37,1,provider number,10036,10063
+37,2,hospital name,community hospital,community hospitl
+37,4,address2,empty,suite 300
+37,5,address3,empty,building C
+37,6,city,tallassee,tallasee
+37,8,zip code,36078,36087
+37,10,phone number,3342836541,3342836542
+37,15,measure code,scip-inf-1,scip-inf-2
+37,17,score,94%,90%
+37,18,sample,120 patients,125 patients
+37,19,stateavg,al_scip-inf-1,al_scip-inf-2
+38,1,provider number,20029,20092
+38,2,hospital name,northwest medical center,northwest medical ctr
+38,4,address2,suite 100,suite 101
+38,5,address3,building A,building D
+38,6,city,springfield,springfiled
+38,8,zip code,62701,62702
+38,10,phone number,2175551234,2175551235
+38,15,measure code,hf-4,hf-5
+38,17,score,84%,82%
+38,18,sample,45 patients,40 patients
+38,19,stateavg,il_hf-4,il_hf-5
+39,1,provider number,30015,30051
+39,8,zip code,94085,94805
+39,17,score,91%,92%
+40,1,provider number,20032,20322
+40,8,zip code,99701,99710
+40,17,score,79%,70%
+41,1,provider number,30015,30051
+41,6,city,heber springs,herber springs
+41,8,zip code,72543,72534
+41,17,score,71%,70%
+42,4,address2,empty,suite 101
+42,6,city,phoenix,pheonix
+42,10,phone number,6025461000,6025461001
+42,17,score,88%,85%
+42,18,sample,96 patients,90 patients
+43,8,zip code,36301,36031
+43,10,phone number,3347938701,3347938702
+43,13,emergency service,yes,no
+43,14,condition,heart attack,heart attach
+43,17,score,78%,80%
+43,18,sample,42 patients,40 patients
+44,8,zip code,36726,36729
+44,10,phone number,3346824131,3346824132
+44,14,condition,heart attack,heart attach
+44,17,score,80%,85%
+44,18,sample,19 patients,15 patients
+45,2,hospital name,greene county hospital,green county hospital
+45,4,address2,empty,suite 101
+45,6,city,eker,ecker
+45,8,zip code,35452,35453
+45,9,county name,greene,green
+45,10,phone number,2053723388,2053723389
+45,17,score,85%,86%
+45,18,sample,14 patients,15 patients
+46,4,address2,suite 100,suite 101
+46,6,city,anchorage,anchor
+46,8,zip code,99501,99502
+46,10,phone number,9071234567,9071234568
+46,17,score,88%,89%
+46,18,sample,150 patients,151 patients
+47,4,address2,unit 202,unit 201
+47,8,zip code,89101,89102
+47,10,phone number,7029876543,7029876542
+47,17,score,75%,76%
+47,18,sample,90 patients,91 patients
+48,8,zip code,85001,85010
+48,10,phone number,4808765432,4808765433
+48,17,score,82%,83%
+48,18,sample,120 patients,121 patients
+49,8,zip code,99701,99702
+49,10,phone number,9074528181,9074528182
+49,17,score,79%,78%
+49,18,sample,45 patients,44 patients
+50,8,zip code,85364,85365
+50,10,phone number,9283442000,9283442001
+50,17,score,88%,89%
+50,18,sample,105 patients,106 patients
+51,4,address2,empty,unit 101
+51,6,city,tucson,tuscon
+51,8,zip code,85741,85714
+51,10,phone number,5207429000,5207429001
+51,17,score,72%,75%
+51,18,sample,31 patients,35 patients
+52,6,city,las vegas,las vagas
+52,8,zip code,89101,89110
+52,10,phone number,7025896332,7025896333
+52,17,score,79%,82%
+52,18,sample,120 patients,125 patients
+53,6,city,covington,covignton
+53,8,zip code,70433,70434
+53,10,phone number,9858674090,9858674091
+53,17,score,88%,85%
+53,18,sample,45 patients,50 patients
+54,4,address2,empty,unit 100
+56,4,address2,empty,unit 5
+57,1,provider number,10022,10023
+57,2,hospital name,baptist medical center south,baptist medical center suth
+57,6,city,montgomery,montgmery
+57,8,zip code,36116,36161
+57,10,phone number,3342882100,3342882101
+57,17,score,89%,88%
+57,18,sample,140 patients,141 patients
+58,1,provider number,20010,20019
+58,2,hospital name,alaska native medical center,alaska native medical cente
+58,8,zip code,99508,99588
+58,10,phone number,9075637100,9075637101
+58,17,score,78%,80%
+58,18,sample,95 patients,90 patients
+59,1,provider number,10022,10023
+59,6,city,mobile,moble
+59,8,zip code,36607,36617
+59,10,phone number,2514352400,2514352401
+59,17,score,79%,77%
+59,18,sample,45 patients,44 patients
+60,4,address2,empty,unit 101
+60,8,zip code,36420,36421
+60,10,phone number,3342228466,3342228465
+60,17,score,82%,81%
+60,18,sample,38 patients,37 patients
+60,19,stateavg,al_ami-8b,al_ami-8c
+61,1,provider number,10036,10035
+61,4,address2,empty,suite 2
+61,8,zip code,35968,35967
+61,10,phone number,2568453150,2568453151
+61,17,score,74%,75%
+61,18,sample,19 patients,18 patients
+61,19,stateavg,al_ami-7a,al_ami-7b
+62,1,provider number,20021,20012
+62,4,address2,suite #1,suite #2
+62,8,zip code,99701,99702
+62,10,phone number,9074528181,9074528182
+62,17,score,78%,77%
+62,18,sample,45 patients,44 patients
+62,19,stateavg,ak_ami-4a,ak_ami-4b
+63,4,address2,empty,suite 101
+64,4,address2,suite 200,suite 201
+65,4,address2,suite 100,suite 102
+66,1,provider number,40007,40017
+66,8,zip code,80458,80457
+66,10,phone number,3038765432,3038765433
+66,17,score,90%,91%
+66,18,sample,80 patients,81 patients
+67,1,provider number,20037,20073
+68,1,provider number,10022,10023
+68,8,zip code,36106,36105
+68,10,phone number,3342938000,3342938001
+68,17,score,81%,80%
+68,18,sample,42 patients,41 patients
+69,1,provider number,30012,30021
+69,4,address2,empty,suite 100
+69,6,city,casa grande,cas grande
+69,8,zip code,85122,85121
+69,10,phone number,5203816300,5203816301
+69,18,sample,63 patients,65 patients
+70,1,provider number,20002,20020
+70,4,address2,suite 200,suite 20
+70,6,city,fairbanks,fairbank
+70,8,zip code,99701,99711
+70,10,phone number,9074582500,9074582501
+70,18,sample,38 patients,39 patients
+71,1,provider number,10024,10042
+71,4,address2,empty,suite 100
+71,8,zip code,76642,76641
+71,10,phone number,2547293281,2547293282
+71,18,sample,122 patients,123 patients
+72,4,address2,empty,unit 101
+72,8,zip code,85012,85013
+72,10,phone number,6022775551,6022775552
+72,17,score,71%,72%
+72,18,sample,15 patients,16 patients
+73,4,address2,suite 200,suite 201
+73,8,zip code,99701,99702
+73,10,phone number,9074528181,9074528182
+73,17,score,79%,80%
+73,18,sample,45 patients,46 patients
+74,4,address2,empty,suite 202
+74,8,zip code,85364,85365
+74,10,phone number,9283442000,9283442001
+74,17,score,87%,86%
+74,18,sample,150 patients,151 patients
+75,4,address2,empty,suite 200
+75,6,city,tucson,tuscon
+75,8,zip code,85741,85704
+75,10,phone number,5207429000,5207429001
+75,17,score,93%,92%
+75,18,sample,100 patients,105 patients
+76,1,provider number,50015,50016
+76,3,address1,4301 w markham st,4301 w markham street
+76,6,city,little rock,littlerock
+76,7,state,ar,ak
+76,8,zip code,72205,72055
+76,10,phone number,5016867000,5016867001
+76,14,condition,heart attack,heart attach
+76,17,score,85%,86%
+76,18,sample,60 patients,50 patients
+77,1,provider number,20029,20092
+77,3,address1,3001 st anns drive,3001 st ann's drive
+77,6,city,jonesboro,jonesborough
+77,8,zip code,72401,72041
+77,10,phone number,8709305821,8709305822
+77,14,condition,heart attack,heart attach
+77,16,measure name,heart attack patients given aspirin at arrival,heart attach patients given aspirin at arrival
+77,17,score,78%,80%
+77,18,sample,45 patients,40 patients
+78,1,provider number,30014,3001
+78,8,zip code,85016,8501
+79,1,provider number,10038,1003
+79,8,zip code,36420,3642
+80,1,provider number,20033,2033
+80,8,zip code,39648,3964
+81,4,address2,empty,suite 101
+81,8,zip code,72401,72041
+81,10,phone number,8709724100,8709724101
+81,17,score,72%,71%
+81,18,sample,38 patients,39 patients
+82,8,zip code,85206,85260
+82,10,phone number,4808545050,4808545051
+82,17,score,88%,89%
+82,18,sample,45 patients,46 patients
+83,4,address2,suite 101,suite 102
+83,8,zip code,81401,81421
+83,10,phone number,9702492211,9702492212
+83,17,score,79%,78%
+83,18,sample,42 patients,41 patients
+84,1,provider number,20008,20080
+84,2,hospital name,central peninsula hospital,central peninsula hospitl
+84,10,phone number,9077144404,9077144044
+85,8,zip code,35160,35610
+86,1,provider number,20032,2032
+86,10,phone number,2175551234,2175551243
+87,1,provider number,30015,30051
+87,4,address2,empty,suite 101
+87,8,zip code,55432,55423
+87,10,phone number,6129876543,6129876541
+87,17,score,91%,90%
+87,18,sample,60 patients,62 patients
+88,1,provider number,40027,40072
+88,8,zip code,95361,95316
+88,10,phone number,2093219876,2093219879
+88,17,score,79%,76%
+88,18,sample,40 patients,44 patients
+89,1,provider number,10021,10211
+89,8,zip code,36116,36161
+89,10,phone number,3342882100,3342882101
+89,17,score,89%,87%
+89,18,sample,120 patients,122 patients
+90,4,address2,empty,suite 100
+91,13,emergency service,yes,no
+93,2,hospital name,holy cross hospital,holly cross hospital
+93,4,address2,empty,suite 100
+93,8,zip code,33308,33307
+93,10,phone number,9544925753,9544925754
+93,17,score,88%,87%
+93,18,sample,120 patients,121 patients
+93,19,stateavg,fl_scip-inf-1,fl_scip-inf-2
+94,4,address2,suite 200,suite 201
+94,8,zip code,84341,84342
+94,10,phone number,4357161000,4357161001
+94,17,score,78%,76%
+94,18,sample,120 patients,119 patients
+94,19,stateavg,ut_hf-3,ut_hf-4
+95,4,address2,empty,suite 101
+95,8,zip code,32550,32551
+95,10,phone number,8502783600,8502783601
+95,17,score,85%,86%
+95,18,sample,42 patients,43 patients
+95,19,stateavg,fl_st-6,fl_st-7
+96,1,provider number,40024,40224
+96,4,address2,empty,suite 101
+96,5,address3,empty,building A
+96,6,city,rawlins,rawlings
+96,8,zip code,82301,82310
+96,10,phone number,3073242221,3073242220
+96,17,score,91%,89%
+96,18,sample,63 patients,64 patients
+97,1,provider number,20029,20092
+97,8,zip code,99501,99510
+97,10,phone number,9075551234,9075551235
+97,17,score,89%,85%
+97,18,sample,50 patients,52 patients
+98,1,provider number,30012,30021
+98,3,address1,700 central avenue,701 central avenue
+98,4,address2,suite 201,suite 200
+98,5,address3,tower B,tower C
+98,8,zip code,85001,85011
+98,10,phone number,6029876543,6029876542
+98,17,score,78%,80%
+98,18,sample,40 patients,45 patients
+99,5,address3,empty,missing
+100,1,provider number,30015,30115
+100,2,hospital name,sacred heart medical center - riverbend,sacred heart medical center - riverbed
+101,1,provider number,20025,20052
+101,5,address3,empty,missing
+102,1,provider number,30009,30090
+102,2,hospital name,phoenix children's hospital,phoenix childrens hospital
+102,3,address1,1919 east thomas road,1919 east thomas rd
+103,1,provider number,40011,40111
+103,2,hospital name,phillips county health systems,phillips county health system
+103,3,address1,1150 state street,1150 state st
+104,3,address1,2105 east south boulevard,2105 east south blvd
+105,2,hospital name,uab highlands,ub highlands
+105,8,zip code,35205,35250
+105,10,phone number,2059307000,2059307009
+105,17,score,79%,80%
+105,18,sample,45 patients,40 patients
+106,8,zip code,36467,34667
+106,10,phone number,3344933541,3344933542
+106,17,score,94%,92%
+106,18,sample,80 patients,85 patients
+107,8,zip code,35235,35253
+107,10,phone number,2058383000,2058383009
+107,17,score,89%,88%
+107,18,sample,120 patients,125 patients
+108,4,address2,empty,missing
+108,5,address3,empty,missing
+108,8,zip code,36301,36310
+108,17,score,78%,80%
+108,18,sample,40 patients,45 patients
+109,4,address2,empty,missing
+109,5,address3,empty,missing
+109,8,zip code,35968,35978
+109,17,score,85%,82%
+109,18,sample,55 patients,50 patients
+110,5,address3,empty,missing
+110,8,zip code,36301,36311
+110,17,score,89%,87%
+110,18,sample,120 patients,115 patients
+111,4,address2,empty,suite 101
+111,10,phone number,2054877711,2054877111
+111,17,score,77%,72%
+111,18,sample,33 patients,35 patients
+112,17,score,95%,98%
+112,18,sample,98 patients,95 patients
+113,17,score,78%,82%
+113,18,sample,102 patients,99 patients
+114,2,hospital name,russell hospital,russel hospital
+114,5,address3,empty,unknown
+115,4,address2,empty,unknown
+117,5,address3,tower A,tower B
+117,8,zip code,80202,80222
+117,10,phone number,3039876543,3039876541
+117,17,score,91%,90%
+117,18,sample,80 patients,85 patients
+118,4,address2,suite 300,suite 310
+118,8,zip code,85001,85101
+118,10,phone number,6023334444,6023334441
+118,17,score,88%,85%
+118,18,sample,120 patients,125 patients
+119,8,zip code,85001,85002
+119,10,phone number,6025551234,6025551231
+119,17,score,88%,87%
+119,18,sample,120 patients,115 patients
+120,8,zip code,80903,80904
+120,10,phone number,7199876543,7199876544
+120,17,score,84%,85%
+120,18,sample,95 patients,100 patients
+120,19,stateavg,co_pn-4,co_pn-5
+121,8,zip code,99508,99509
+121,10,phone number,9072641243,9072641244
+121,17,score,89%,88%
+121,18,sample,150 patients,160 patients
+121,19,stateavg,ak_hf-2,ak_hf-3
+122,8,zip code,99755,99756
+122,10,phone number,9076839532,9076839533
+122,17,score,83%,82%
+122,18,sample,45 patients,50 patients
+122,19,stateavg,ak_stroke-3,ak_stroke-4
+123,1,provider number,40015,40014
+123,2,hospital name,baptist health medical center-arkadelphia,baptist health medical center-arkadelphi
+123,8,zip code,71923,71922
+123,10,phone number,8702452622,8702452621
+123,15,measure code,pn-8,pn-9
+123,17,score,78%,79%
+123,18,sample,60 patients,61 patients
+123,19,stateavg,ar_pn-8,ar_pn-9
+124,1,provider number,20012,20021
+124,2,hospital name,fairbanks memorial hospital,fairbanks memorial hospit
+124,8,zip code,99701,99702
+124,10,phone number,9074528181,9074528182
+124,15,measure code,ami-8a,ami-8b
+124,17,score,78%,79%
+124,18,sample,42 patients,43 patients
+124,19,stateavg,ak_amix8a,ak_amix8b
+125,1,provider number,10025,10026
+125,2,hospital name,community hospital north,community hosp north
+125,8,zip code,46256,46257
+125,10,phone number,3176216262,3176216261
+125,15,measure code,scip-vte-2,scip-vte-3
+125,17,score,95%,94%
+125,18,sample,123 patients,124 patients
+125,19,stateavg,in_scip-vte-2,in_scip-vte-3
+126,2,hospital name,wills memorial hospital,will's memorial hospital
+126,4,address2,empty,suite 200
+126,8,zip code,30673,30670
+126,17,score,72%,73%
+126,18,sample,31 patients,32 patients
+127,2,hospital name,valdez regional health authority,valdeez regional health authority
+127,8,zip code,99686,99680
+127,17,score,79%,78%
+127,18,sample,40 patients,41 patients
+128,8,zip code,85206,85260
+128,17,score,88%,87%
+128,18,sample,92 patients,93 patients
+129,4,address2,empty,suite 202
+129,10,phone number,2563324110,2563324111
+129,17,score,73%,72%
+129,18,sample,14 patients,13 patients
+130,4,address2,empty,building 3
+130,10,phone number,2052743000,2052743001
+130,17,score,78%,80%
+130,18,sample,40 patients,42 patients
+131,4,address2,empty,suite 100
+131,10,phone number,4022198000,4022198001
+131,17,score,85%,84%
+131,18,sample,60 patients,61 patients
+132,4,address2,empty,suite 102
+132,6,city,hamilton,hamiltown
+132,10,phone number,2059216200,2059216201
+132,17,score,92%,91%
+132,18,sample,15 patients,16 patients
+133,7,state,ak,az
+133,10,phone number,9071234567,9071234568
+133,17,score,84%,85%
+133,18,sample,120 patients,121 patients
+134,4,address2,unit B,unit C
+134,10,phone number,3039876543,3039876544
+134,13,emergency service,yes,no
+134,17,score,93%,94%
+134,18,sample,80 patients,81 patients
+135,1,provider number,10009,10090
+135,6,city,montgomery,montogomery
+135,8,zip code,36116,36126
+135,10,phone number,3342882100,3342882101
+135,17,score,82%,80%
+135,18,sample,45 patients,40 patients
+136,1,provider number,20015,20051
+136,8,zip code,95405,95415
+136,10,phone number,7075457200,7075457201
+136,17,score,88%,85%
+136,18,sample,120 patients,125 patients
+137,1,provider number,10035,10335
+137,8,zip code,35565,35556
+137,10,phone number,2054865213,2054865214
+137,17,score,75%,72%
+137,18,sample,18 patients,15 patients
+138,1,provider number,20023,20032
+138,8,zip code,99701,99702
+138,17,score,78%,76%
+139,1,provider number,10026,10036
+139,8,zip code,36426,36427
+139,17,score,94%,90%
+140,1,provider number,10036,10063
+140,8,zip code,35768,35769
+140,17,score,79%,81%
+141,1,provider number,20002,20020
+141,2,hospital name,northern lights regional health centre,northern lights regional health center
+141,3,address1,7 hospital street,7 hospital st
+141,5,address3,empty,building
+141,6,city,fort mcmurray,fort macmurray
+141,8,zip code,70914,70941
+141,10,phone number,7807916052,7807916053
+141,15,measure code,hf-1,hf-2
+141,18,sample,96 patients,100 patients
+141,19,stateavg,ab_hf-1,ab_hf-2
+142,1,provider number,30021,30201
+142,3,address1,6245 de longpre avenue,6245 de longpre ave
+142,4,address2,suite 900,ste 900
+142,5,address3,empty,nan
+142,6,city,hollywood,hollywod
+142,8,zip code,90028,90082
+142,10,phone number,3234622271,3234262271
+142,15,measure code,st-3,st-5
+142,17,score,78%,80%
+142,18,sample,42 patients,40 patients
+142,19,stateavg,ca_st-3,ca_st-5
+143,1,provider number,40055,40550
+143,2,hospital name,mountainview regional medical center,mountainview regional medical centre
+143,3,address1,4311 east lohman avenue,4311 east lohman ave
+143,5,address3,empty,nan
+143,7,state,nm,nv
+143,8,zip code,88011,88001
+143,10,phone number,5755567600,5755577600
+143,15,measure code,pn-8,pn-9
+143,17,score,89%,88%
+143,18,sample,55 patients,50 patients
+143,19,stateavg,nm_pn-8,nv_pn-9
+144,1,provider number,30012,30021
+144,4,address2,empty,suite 100
+144,8,zip code,52402,52403
+144,10,phone number,3193697211,3193697212
+144,17,score,80%,82%
+144,18,sample,35 patients,30 patients
+145,1,provider number,20025,20052
+145,5,address3,empty,suite 50
+145,8,zip code,99508,99507
+145,10,phone number,9075637100,9075637102
+145,17,score,75%,73%
+145,18,sample,45 patients,50 patients
+146,1,provider number,10020,10002
+146,4,address2,suite 200,suite 300
+146,8,zip code,91763,91764
+146,10,phone number,9096255411,9096255413
+146,17,score,79%,77%
+146,18,sample,45 patients,40 patients
+147,4,address2,empty,suite 100
+147,8,zip code,99508,99518
+147,10,phone number,9075622211,9075622212
+147,17,score,83%,85%
+147,18,sample,112 patients,110 patients
+148,8,zip code,35570,35571
+148,10,phone number,2059216200,2059216201
+148,17,score,88%,86%
+148,18,sample,67 patients,65 patients
+149,8,zip code,99709,99708
+149,10,phone number,9074567890,9074567891
+149,17,score,95%,93%
+149,18,sample,150 patients,155 patients
+150,8,zip code,80528,80529
+150,10,phone number,9701234567,9701234568
+150,17,score,88%,89%
+150,18,sample,95 patients,96 patients
+151,8,zip code,85001,85010
+151,10,phone number,6029876543,6029876544
+151,17,score,82%,80%
+151,18,sample,120 patients,121 patients
+152,8,zip code,35565,35566
+152,10,phone number,2054865213,2054865214
+152,17,score,79%,78%
+152,18,sample,38 patients,37 patients
+153,4,address2,empty,suite 100
+153,8,zip code,99508,99507
+153,17,score,95%,90%
+153,18,sample,140 patients,150 patients
+154,4,address2,empty,suite 200
+154,8,zip code,36804,36801
+154,17,score,73%,75%
+154,18,sample,17 patients,20 patients
+155,4,address2,empty,suite 300
+155,8,zip code,36116,36109
+155,17,score,79%,80%
+155,18,sample,48 patients,50 patients
+156,4,address2,empty,unit 201
+156,17,score,88%,89%
+156,18,sample,95 patients,100 patients
+157,4,address2,empty,suite 101
+157,8,zip code,35968,35698
+157,17,score,72%,70%
+157,18,sample,33 patients,30 patients
+158,17,score,85%,84%
+158,18,sample,45 patients,40 patients
+159,1,provider number,10024,10025
+159,2,hospital name,lawrence medical center,lawrence medical centre
+159,3,address1,202 hospital street,202 hospital st
+159,4,address2,empty,suite 100
+159,5,address3,empty,room 301
+159,6,city,moulton,molton
+159,7,state,al,alabama
+159,8,zip code,35650,35651
+159,10,phone number,2569742200,2569742201
+159,11,hospital type,acute care hospitals,acute care hospital
+159,14,condition,heart failure,heart attack
+159,15,measure code,hf-3,hf-4
+159,16,measure name,heart failure patients given an evaluation of left ventricular systolic (lvs) function,heart failure patients given an evaluation of left ventricular diastolic (lvd) function
+159,17,score,77%,76%
+159,18,sample,60 patients,59 patients
+159,19,stateavg,al_hf-3,al_hf-4
+160,1,provider number,30021,30022
+160,2,hospital name,sunset health services inc,sunset healthcare services inc
+160,3,address1,789 sunset boulevard,789 sunset blvd
+160,4,address2,suite 200,suite 201
+160,5,address3,empty,room 101
+160,6,city,phoenix,pheonix
+160,8,zip code,85001,85002
+160,10,phone number,6028765432,6028765431
+160,13,emergency service,yes,no
+160,15,measure code,hf-1,hf-2
+160,16,measure name,heart failure patients given discharge instructions,heart failure patients given medication at discharge
+160,17,score,84%,85%
+160,18,sample,95 patients,96 patients
+160,19,stateavg,az_hf-1,az_hf-2
+161,1,provider number,20039,20040
+161,2,hospital name,northern michigan hospital,northern michigan medical center
+161,3,address1,416 connable avenue,416 connable ave
+161,4,address2,empty,suite 300
+161,5,address3,empty,room 201
+161,6,city,petoskey,petoski
+161,8,zip code,49770,49771
+161,9,county name,emmet,emmett
+161,10,phone number,2314874000,2314874001
+161,15,measure code,st-1,st-2
+161,16,measure name,stroke patients assessed for rehabilitation,stroke patients screened for atrial fibrillation
+161,17,score,79%,80%
+161,18,sample,120 patients,119 patients
+161,19,stateavg,mi_st-1,mi_st-2
+162,1,provider number,40012,40021
+163,8,zip code,36116,36161
+164,8,zip code,35594,35954
+165,4,address2,empty,unit 204
+165,8,zip code,35903,35902
+165,10,phone number,2564944000,2564944001
+165,17,score,82%,85%
+165,18,sample,42 patients,40 patients
+166,4,address2,suite 3,suite 30
+166,8,zip code,90023,90025
+166,10,phone number,3232689191,3232689919
+166,17,score,95%,90%
+166,18,sample,120 patients,125 patients
+167,4,address2,tower 2,tower 22
+167,8,zip code,27103,27105
+167,10,phone number,3366596000,3366596008
+167,17,score,88%,85%
+167,18,sample,45 patients,50 patients
+168,8,zip code,97401,97400
+168,10,phone number,5416876430,5416876431
+168,18,sample,65 patients,64 patients
+169,8,zip code,99701,99700
+169,10,phone number,9074528181,9074528182
+169,17,score,78%,77%
+169,18,sample,45 patients,44 patients
+170,8,zip code,85016,85015
+170,10,phone number,6029331000,6029331001
+170,17,score,94%,93%
+170,18,sample,129 patients,128 patients
+171,4,address2,empty,unit 100
+171,6,city,shelby,selby
+171,8,zip code,28150,28152
+171,10,phone number,7044873154,7044873155
+171,11,hospital type,acute care hospitals,acute care hospital
+171,12,hospital owner,proprietory,proprietary
+171,17,score,82%,81%
+171,18,sample,37 patients,38 patients
+171,19,stateavg,nc_stroke-3,nc_stroke-4
+172,4,address2,empty,suite 200
+172,8,zip code,36116,36115
+172,10,phone number,3342882100,3342882101
+172,17,score,79%,77%
+172,18,sample,123 patients,120 patients
+172,19,stateavg,al_hf-3,al_hf-2
+173,4,address2,empty,suite 300
+173,8,zip code,35968,35967
+173,10,phone number,2568453150,2568453151
+173,12,hospital owner,proprietary,proprietory
+173,17,score,88%,85%
+173,18,sample,95 patients,90 patients
+173,19,stateavg,al_pn-1,al_pn-2
+174,8,zip code,35661,35616
+174,10,phone number,2563861600,2563861601
+174,18,sample,44 patients,45 patients
+175,8,zip code,99701,99711
+175,10,phone number,9074528181,9074528182
+175,18,sample,45 patients,44 patients
+176,8,zip code,35235,35236
+176,10,phone number,2058383000,2058383001
+176,18,sample,55 patients,56 patients
+177,2,hospital name,hale county hospital,hale conty hospital
+178,8,zip code,94086,9486
+179,2,hospital name,mountain view regional hospital,mountain view reginal hospital
+179,8,zip code,82939,8239
+180,1,provider number,40012,40021
+180,8,zip code,33140,33141
+180,10,phone number,3055555678,3055555679
+180,17,score,83%,85%
+180,18,sample,95 patients,90 patients
+181,1,provider number,20034,20043
+181,8,zip code,98002,98003
+181,10,phone number,7807916200,7807916209
+181,17,score,81%,84%
+181,18,sample,35 patients,40 patients
+182,1,provider number,30012,30021
+182,8,zip code,99352,99353
+182,10,phone number,5099420333,5099420339
+182,17,score,93%,95%
+182,18,sample,110 patients,100 patients
+183,1,provider number,20005,20050
+183,8,zip code,99501,99502
+183,10,phone number,9075551234,9075551243
+183,17,score,85%,86%
+183,18,sample,120 patients,121 patients
+184,1,provider number,30012,30112
+184,8,zip code,95350,95351
+184,10,phone number,2099876543,2099876544
+184,17,score,78%,77%
+184,18,sample,45 patients,46 patients
+185,1,provider number,40033,40333
+185,8,zip code,90405,90406
+185,10,phone number,3108765432,3108765433
+185,17,score,90%,89%
+185,18,sample,95 patients,94 patients
+186,8,zip code,36110,3611
+186,10,phone number,3342631257,3342631256
+186,17,score,79%,80%
+186,18,sample,42 patients,40 patients
+187,8,zip code,36305,3630
+187,10,phone number,3347935000,3347935001
+187,17,score,88%,85%
+187,18,sample,129 patients,120 patients
+188,8,zip code,35160,3516
+188,10,phone number,2563628111,2563628110
+188,17,score,91%,89%
+188,18,sample,38 patients,40 patients
+189,1,provider number,20023,20032
+189,2,hospital name,central peninsula hospital,central peninsular hospital
+190,1,provider number,10038,10083
+191,1,provider number,10016,10061
+192,5,address3,empty,unit 201
+192,8,zip code,85021,85121
+192,17,score,88%,85%
+192,18,sample,105 patients,100 patients
+193,4,address2,suite 300,suite 302
+193,5,address3,empty,room 303
+193,17,score,95%,97%
+193,18,sample,63 patients,65 patients
+194,8,zip code,55109,55119
+194,17,score,89%,87%
+194,18,sample,42 patients,40 patients
+195,5,address3,empty,unit 200
+195,8,zip code,36507,36508
+195,10,phone number,2519375521,2519375522
+195,17,score,79%,78%
+195,18,sample,35 patients,36 patients
+196,4,address2,empty,room 101
+196,8,zip code,35968,35967
+196,10,phone number,2568453150,2568453151
+196,17,score,88%,87%
+196,18,sample,42 patients,41 patients
+197,4,address2,suite 200,suite 201
+197,8,zip code,36078,36079
+197,10,phone number,3342836541,3342836542
+197,17,score,90%,89%
+197,18,sample,62 patients,61 patients
+198,1,provider number,20008,20080
+198,4,address2,empty,suite 100
+198,8,zip code,99701,99705
+198,10,phone number,9074528181,9074528182
+198,17,score,79%,80%
+198,18,sample,45 patients,46 patients
+199,1,provider number,30012,30021
+199,8,zip code,85001,85010
+199,10,phone number,6025551234,6025551243
+199,17,score,88%,87%
+199,18,sample,35 patients,34 patients
+200,1,provider number,40009,40090
+200,4,address2,empty,suite 1
+200,8,zip code,72201,72202
+200,10,phone number,5015559876,5015559870
+200,17,score,95%,94%
+200,18,sample,60 patients,61 patients
+201,1,provider number,20012,20102
+201,8,zip code,99503,99502
+201,10,phone number,9075551234,9075551243
+201,17,score,91%,90%
+201,18,sample,120 patients,125 patients
+202,1,provider number,30025,30225
+202,2,hospital name,sunset valley medical center,sunet valley medical center
+202,6,city,sunset valley,sunet valley
+202,8,zip code,90210,90201
+202,10,phone number,3109876543,3109876541
+202,17,score,95%,97%
+202,18,sample,45 patients,40 patients
+203,1,provider number,10018,10118
+203,8,zip code,36116,36115
+203,10,phone number,3342882100,3342882101
+203,17,score,82%,85%
+203,18,sample,35 patients,30 patients
+204,1,provider number,10023,10233
+204,6,city,centre,centreville
+204,8,zip code,35960,35961
+204,10,phone number,2569275531,2569275551
+204,17,score,77%,72%
+204,18,sample,42 patients,40 patients
+205,1,provider number,20012,20021
+205,8,zip code,99508,99518
+205,10,phone number,9075632662,9076532662
+205,17,score,78%,80%
+205,18,sample,41 patients,45 patients
+206,1,provider number,10036,10063
+206,8,zip code,36603,36630
+206,10,phone number,2514338255,2514332855
+206,17,score,94%,92%
+206,18,sample,123 patients,120 patients
+207,0,index,301,310
+207,1,provider number,20045,20054
+207,2,hospital name,fairbanks memorial hospital,fairbanks memorial hospitl
+207,6,city,fairbanks,fairbank
+207,17,score,78%,79%
+207,18,sample,120 patients,119 patients
+208,0,index,562,572
+208,1,provider number,30023,30032
+208,6,city,flagstaff,flagstaf
+208,17,score,95%,96%
+208,18,sample,68 patients,69 patients
+209,0,index,725,735
+209,1,provider number,40012,40021
+209,2,hospital name,sutter auburn faith hospital,sutter auburn faith hospita
+209,17,score,94%,93%
+209,18,sample,142 patients,141 patients
+210,1,provider number,50019,50091
+211,1,provider number,60027,60072
+212,1,provider number,10025,10052
+213,4,address2,empty,suite 102
+213,6,city,jasper,jasperr
+213,8,zip code,35501,35511
+213,10,phone number,2053874000,2053874001
+213,17,score,90%,91%
+213,18,sample,150 patients,151 patients
+213,19,stateavg,al_pn-3b,al_pn-3c
+214,8,zip code,35404,35405
+214,10,phone number,2055542000,2055542002
+214,17,score,95%,96%
+214,18,sample,120 patients,121 patients
+214,19,stateavg,al_pn-5c,al_pn-5d
+215,8,zip code,36116,36117
+215,10,phone number,3342882100,3342882101
+215,17,score,79%,80%
+215,18,sample,45 patients,46 patients
+215,19,stateavg,al_ami-8b,al_ami-8c
+216,4,address2,empty,unit 103
+216,10,phone number,2568453150,2568453100
+216,17,score,85%,86%
+216,18,sample,63 patients,60 patients
+217,4,address2,empty,suite 301
+217,8,zip code,35565,35665
+217,10,phone number,2054857000,2054857001
+217,17,score,72%,70%
+217,18,sample,18 patients,20 patients
+218,3,address1,4315 diplomac drive,4315 diplomacy drive
+218,4,address2,empty,suite 102
+218,10,phone number,9075632662,9075632663
+218,17,score,75%,73%
+218,18,sample,42 patients,40 patients
+219,2,hospital name,tuba city regional health care corporation,tuba city regional health care center
+219,8,zip code,86045,86048
+219,10,phone number,9282832921,9282832922
+219,17,score,83%,84%
+219,18,sample,68 patients,69 patients
+220,2,hospital name,university of arkansas for medical sciences,university of arkansas for medical science
+220,8,zip code,72205,72204
+220,10,phone number,5016867000,5016867001
+220,17,score,88%,82%
+220,18,sample,135 patients,133 patients
+221,8,zip code,99508,99518
+221,10,phone number,9075632532,9075632533
+221,17,score,84%,86%
+221,18,sample,33 patients,36 patients
+222,1,provider number,30021,30221
+222,4,address2,empty,unit 202
+222,5,address3,empty,suite b
+222,8,zip code,85206,85260
+222,10,phone number,4809815535,4809815530
+222,17,score,88%,85%
+222,18,sample,195 patients,200 patients
+223,1,provider number,40015,40051
+223,4,address2,empty,suite 100
+223,5,address3,empty,room a
+223,8,zip code,85013,85103
+223,10,phone number,6024063000,6024163000
+223,17,score,72%,75%
+223,18,sample,42 patients,40 patients
+224,1,provider number,20032,20332
+224,4,address2,suite 200,suite 201
+224,5,address3,empty,room c
+224,8,zip code,83835,83385
+224,10,phone number,2087726601,2087226601
+224,17,score,89%,87%
+224,18,sample,105 patients,110 patients
+225,4,address2,empty,unit 101
+225,8,zip code,35010,35012
+225,10,phone number,2563297100,2563297105
+225,15,measure code,ami-7a,ami-7b
+225,17,score,73%,75%
+225,18,sample,32 patients,35 patients
+226,4,address2,suite 100,suite 101
+226,8,zip code,99701,99710
+226,10,phone number,9074567890,9074567891
+226,15,measure code,hf-1,hf-2
+226,17,score,85%,80%
+226,18,sample,100 patients,105 patients
+227,4,address2,suite 200,suite 201
+227,8,zip code,85001,85010
+227,10,phone number,6029876543,6029876541
+227,15,measure code,stroke-2,stroke-3
+227,16,measure name,stroke patients given antithrombotic therapy by the end of hospital day 2,stroke patients given antithrombotic therapy by the end of hospital day 3
+227,17,score,78%,80%
+227,18,sample,50 patients,55 patients
+228,8,zip code,35235,35236
+228,10,phone number,2058383000,2058383001
+228,17,score,82%,81%
+228,18,sample,45 patients,46 patients
+229,1,provider number,10022,10020
+229,8,zip code,36617,36618
+229,10,phone number,2514717000,2514717001
+229,17,score,77%,76%
+229,18,sample,31 patients,30 patients
+230,1,provider number,10014,10015
+230,8,zip code,35447,35448
+230,10,phone number,2053678111,2053678112
+230,17,score,90%,89%
+230,18,sample,63 patients,62 patients
+231,2,hospital name,fairbanks memorial hospital,fairbank memorial hospital
+231,8,zip code,99701,99700
+231,10,phone number,9074528181,9074528180
+231,17,score,81%,80%
+232,8,zip code,99508,99580
+232,10,phone number,9075622211,9075622210
+232,17,score,90%,91%
+233,8,zip code,99701,99700
+233,10,phone number,9074585555,9074585554
+233,17,score,84%,85%
+234,4,address2,empty,suite 200
+234,8,zip code,30274,30275
+234,10,phone number,7709918000,7709918001
+234,15,measure code,pn-5,pn-5a
+234,17,score,88%,89%
+234,18,sample,95 patients,96 patients
+234,19,stateavg,ga_pn-5,ga_pn-6
+235,1,provider number,40012,40021
+235,2,hospital name,jackson medical center,jacksson medical center
+235,8,zip code,36545,36546
+235,10,phone number,2512469021,2512469020
+235,15,measure code,ami-8a,ami-8b
+235,17,score,79%,78%
+235,18,sample,40 patients,41 patients
+236,1,provider number,20034,20043
+236,8,zip code,99501,99502
+236,10,phone number,9075551234,9075551235
+236,15,measure code,hf-1,hf-2
+236,17,score,85%,84%
+236,18,sample,120 patients,121 patients
+236,19,stateavg,ak_hf-1,ak_hf-2
+237,1,provider number,30022,30032
+237,8,zip code,80202,80201
+237,10,phone number,3039876543,3039876544
+237,17,score,91%,92%
+237,18,sample,85 patients,86 patients
+238,1,provider number,20013,20031
+238,8,zip code,99701,99702
+238,10,phone number,9074528181,9074528182
+238,17,score,85%,84%
+238,18,sample,102 patients,101 patients
+239,1,provider number,30045,30054
+239,8,zip code,87106,87105
+239,10,phone number,5058411234,5058411235
+239,17,score,77%,76%
+239,18,sample,39 patients,38 patients
+240,6,city,centre,centr
+240,8,zip code,35960,35962
+240,10,phone number,2569271800,2569271801
+240,17,score,91%,92%
+240,18,sample,145 patients,150 patients
+241,6,city,fort worth,fort wort
+241,8,zip code,76132,76133
+241,10,phone number,8173468100,8173468101
+241,17,score,84%,85%
+241,18,sample,120 patients,125 patients
+242,6,city,los angeles,los angele
+242,8,zip code,90027,90028
+242,10,phone number,3239134411,3239134412
+242,17,score,79%,78%
+242,18,sample,90 patients,95 patients
+243,1,provider number,40009,40090
+243,2,hospital name,pineview general hospital,pineview general hospitol
+243,8,zip code,71360,71361
+243,10,phone number,3184428282,3184428283
+243,17,score,95%,96%
+243,18,sample,45 patients,46 patients
+244,1,provider number,20009,20090
+244,2,hospital name,fairbanks memorial hospital,fairbanks memorial hospitol
+244,8,zip code,99701,99702
+244,10,phone number,9074585555,9074585556
+244,17,score,89%,88%
+244,18,sample,45 patients,44 patients
+245,1,provider number,30021,30210
+245,2,hospital name,phoenix children's hospital,phoenix childrens hospital
+245,8,zip code,85016,85106
+245,10,phone number,6029331000,6029331001
+245,17,score,94%,93%
+245,18,sample,112 patients,111 patients
+246,2,hospital name,alaska general hospital,alaska general hospitall
+246,8,zip code,99709,99799
+246,10,phone number,9074567890,9074567891
+246,17,score,82%,85%
+246,18,sample,45 patients,48 patients
+247,2,hospital name,birmingham medical center,birmingham medical centerr
+247,8,zip code,35233,35232
+247,10,phone number,2051234567,2051234568
+247,17,score,78%,79%
+247,18,sample,92 patients,90 patients
+248,2,hospital name,phoenix general hospital,phoenix general hospitall
+248,8,zip code,85003,85013
+248,10,phone number,6029876543,6029876544
+248,17,score,90%,88%
+248,18,sample,65 patients,62 patients
+249,4,address2,suite 400,suite 40
+249,10,phone number,4175551234,4175551235
+249,17,score,79%,78%
+249,18,sample,45 patients,46 patients
+250,4,address2,suite 201,suite 21
+250,8,zip code,28801,2801
+250,10,phone number,8289995678,8289995679
+250,17,score,88%,87%
+250,18,sample,65 patients,64 patients
+251,4,address2,suite 100,suite 10
+251,8,zip code,94086,4086
+251,10,phone number,4087778888,4087778889
+251,17,score,95%,94%
+251,18,sample,32 patients,33 patients
+252,1,provider number,10012,10021
+252,2,hospital name,saint vincent's east,saint vincents east
+252,6,city,birmingham,birimingham
+252,14,condition,heart attack,heart attak
+252,15,measure code,ami-7a,ami-7b
+253,1,provider number,20003,20030
+253,15,measure code,scip-inf-1,scip-inf-2
+254,8,zip code,62701,62702
+254,10,phone number,2175551234,2175551235
+255,1,provider number,30012,30021
+255,2,hospital name,central valley medical center,centrl valley medical center
+255,8,zip code,93702,93722
+255,17,score,78%,79%
+256,1,provider number,40006,40060
+256,8,zip code,85001,85011
+256,17,score,93%,94%
+257,8,zip code,99701,99702
+257,17,score,81%,80%
+258,4,address2,empty,suite 101
+258,8,zip code,36305,36350
+258,10,phone number,3347945000,3347945001
+258,17,score,74%,73%
+258,18,sample,37 patients,38 patients
+259,4,address2,empty,unit 101
+259,8,zip code,99645,99654
+259,10,phone number,9078616000,9078616001
+259,17,score,89%,88%
+259,18,sample,19 patients,20 patients
+260,8,zip code,36116,36161
+260,10,phone number,3342882100,3342882101
+260,17,score,84%,83%
+260,18,sample,148 patients,147 patients
+261,2,hospital name,cullman regional medical center,culmann regional medical center
+261,10,phone number,2567372000,2567372001
+261,17,score,79%,78%
+261,18,sample,33 patients,32 patients
+262,10,phone number,2518678061,2518678062
+262,17,score,74%,71%
+262,18,sample,19 patients,9 patients
+263,10,phone number,3342882100,3342882101
+263,17,score,79%,80%
+263,18,sample,42 patients,41 patients
+264,4,address2,empty,unit 101
+264,5,address3,empty,suite 200
+264,8,zip code,36420,36421
+264,10,phone number,3342228466,3342228465
+264,17,score,88%,87%
+264,18,sample,63 patients,62 patients
+264,19,stateavg,al_hf-1,al_hf-2
+265,4,address2,empty,suite 100
+265,8,zip code,36305,36304
+265,10,phone number,3347945000,3347945001
+265,17,score,82%,80%
+265,18,sample,53 patients,50 patients
+265,19,stateavg,al_pn-8,al_pn-7
+266,1,provider number,10021,10022
+266,4,address2,empty,room 301
+266,8,zip code,36116,36115
+266,10,phone number,3342882100,3342882101
+266,15,measure code,hf-1,hf-2
+266,17,score,84%,83%
+266,18,sample,117 patients,116 patients
+266,19,stateavg,al_hf-1,al_hf-2
+267,4,address2,empty,unit 201
+267,8,zip code,99508,99507
+267,17,score,78%,80%
+267,18,sample,45 patients,48 patients
+268,4,address2,empty,suite 101
+268,8,zip code,35160,35161
+268,17,score,89%,87%
+268,18,sample,95 patients,98 patients
+269,8,zip code,99503,99504
+269,17,score,78%,75%
+269,18,sample,42 patients,39 patients
+270,1,provider number,30018,30118
+270,3,address1,1703 n buerkle,1703 n burkle
+270,8,zip code,72160,72161
+270,10,phone number,8706733511,8706733512
+270,17,score,84%,82%
+270,18,sample,63 patients,64 patients
+271,1,provider number,40034,40043
+271,8,zip code,72335,72355
+271,10,phone number,8702610000,8702610001
+271,17,score,72%,75%
+271,18,sample,98 patients,100 patients
+272,1,provider number,20002,20022
+272,8,zip code,99701,99710
+272,10,phone number,9074528181,9074528182
+272,17,score,79%,77%
+272,18,sample,48 patients,50 patients
+273,4,address2,empty,unit 201
+273,6,city,demopolis,demoplis
+273,8,zip code,36732,36733
+273,10,phone number,3342894000,3342894001
+273,14,condition,heart attack,heart atack
+273,15,measure code,ami-8a,ami-8b
+273,17,score,88%,89%
+273,18,sample,33 patients,32 patients
+273,19,stateavg,al_ami-8a,al_ami-8b
+274,4,address2,suite 110,suite 112
+274,6,city,birmingham,birmngham
+274,8,zip code,35222,35221
+274,10,phone number,2058705666,2058705667
+274,14,condition,heart failure,heart failur
+274,15,measure code,hf-3,hf-2
+274,17,score,95%,94%
+274,18,sample,120 patients,121 patients
+274,19,stateavg,al_hf-3,al_hf-2
+275,4,address2,suite 201,suite 202
+275,6,city,sheffield,shefield
+275,8,zip code,35660,35661
+275,10,phone number,2563864556,2563864557
+275,14,condition,surgical site infection,surgical site infction
+275,15,measure code,scip-inf-4,scip-inf-5
+275,17,score,88%,87%
+275,18,sample,150 patients,151 patients
+275,19,stateavg,al_scip-inf-4,al_scip-inf-5
+276,8,zip code,36460,36461
+276,10,phone number,2515753111,2515753110
+277,8,zip code,49201,49210
+277,10,phone number,5177832620,5177832621
+278,8,zip code,43130,43131
+278,10,phone number,7406878000,7406878001
+279,8,zip code,36801,36810
+279,10,phone number,3345558899,3345558890
+279,17,score,78%,76%
+279,18,sample,45 patients,44 patients
+280,8,zip code,36116,36115
+280,10,phone number,3342724670,3342724671
+280,17,score,95%,94%
+280,18,sample,123 patients,122 patients
+281,8,zip code,99701,99702
+281,10,phone number,9074528181,9074528182
+281,17,score,88%,87%
+281,18,sample,150 patients,149 patients
+282,4,address2,empty,unit 201
+282,5,address3,empty,suite a
+282,8,zip code,36420,36421
+282,10,phone number,3342228466,3343228466
+282,17,score,73%,71%
+282,18,sample,44 patients,42 patients
+283,4,address2,suite 100,unit 101
+283,8,zip code,99701,99702
+283,10,phone number,9074587553,9074587554
+283,17,score,75%,78%
+283,18,sample,112 patients,122 patients
+284,4,address2,empty,building b
+284,8,zip code,99645,99646
+284,10,phone number,9078616000,9078616001
+284,17,score,82%,85%
+284,18,sample,68 patients,70 patients
+285,3,address1,4020 folker street,402 folker street
+286,8,zip code,59711,5971
+287,8,zip code,93940,9390
+288,1,provider number,20009,20090
+288,8,zip code,99508,99509
+288,10,phone number,9075632662,9075632663
+288,15,measure code,hf-1,hf-2
+288,17,score,91%,92%
+288,18,sample,150 patients,151 patients
+288,19,stateavg,ak_hf-1,ak_hf-2
+289,1,provider number,30012,30120
+289,8,zip code,85016,85106
+289,10,phone number,6025461000,6025461001
+289,15,measure code,scip-inf-9,scip-inf-8
+289,17,score,85%,86%
+289,18,sample,40 patients,41 patients
+289,19,stateavg,az_scip-inf-9,az_scip-inf-8
+290,1,provider number,40020,40002
+290,8,zip code,72202,72220
+290,10,phone number,5013641100,5013641101
+290,15,measure code,scip-inf-10,scip-inf-01
+290,17,score,88%,89%
+290,18,sample,60 patients,61 patients
+290,19,stateavg,ar_scip-inf-10,ar_scip-inf-01
+291,1,provider number,20009,20090
+292,1,provider number,30015,30051
+292,8,zip code,85016,85106
+293,1,provider number,40012,40021
+293,8,zip code,89503,89530
+294,1,provider number,20023,20033
+294,2,hospital name,fairbanks memorial hospital,fairbank memorial hospital
+294,8,zip code,99701,99702
+294,10,phone number,9074528181,9074528182
+294,15,measure code,hf-4,hf-5
+294,17,score,78%,79%
+294,18,sample,56 patients,57 patients
+294,19,stateavg,ak_hf-4,ak_hf-5
+295,1,provider number,30012,30021
+295,8,zip code,85202,85212
+295,10,phone number,4804123000,4804123001
+295,15,measure code,ami-8a,ami-8b
+295,17,score,91%,92%
+295,18,sample,42 patients,43 patients
+295,19,stateavg,az_ami-8a,az_ami-8b
+296,1,provider number,40008,40080
+296,8,zip code,80218,80281
+296,10,phone number,3038377111,3038377112
+296,15,measure code,scip-vte-2,scip-vte-3
+296,17,score,89%,88%
+296,18,sample,98 patients,97 patients
+296,19,stateavg,co_scip-vte-2,co_scip-vte-3
+297,8,zip code,99701,99702
+297,17,score,88%,86%
+297,18,sample,122 patients,120 patients
+297,19,stateavg,ak_scip-inf-2,ak_scip-inf-3
+298,7,state,nm,mn
+298,8,zip code,87106,87160
+298,10,phone number,5058411234,5058141234
+298,17,score,79%,77%
+298,18,sample,37 patients,35 patients
+298,19,stateavg,nm_ami-8a,nm_ami-9a
+299,7,state,ar,az
+299,8,zip code,72703,72706
+299,10,phone number,4797131000,4797131001
+299,13,emergency service,yes,no
+299,17,score,82%,80%
+299,18,sample,45 patients,40 patients
+299,19,stateavg,ar_ami-7a,ar_ami-8a
+300,17,score,78%,79%
+301,17,score,85%,84%
+302,17,score,93%,92%
+303,1,provider number,10019,10029
+303,2,hospital name,jefferson health care center,Jefferson Health Care Center
+303,3,address1,123 main street,123 Main St
+303,4,address2,suite 200,Suite 200
+303,6,city,birmingham,Birminghan
+303,8,zip code,35203,35204
+303,9,county name,jefferson,Jefferson
+303,10,phone number,2055551234,2055551235
+303,17,score,89%,88%
+303,18,sample,120 patients,121 patients
+304,1,provider number,10027,10022
+304,2,hospital name,southern regional medical center,Southern Regional Medical Center
+304,3,address1,800 peachtree street,800 Peachtree St
+304,4,address2,suite 500,Suite 500
+304,6,city,dothan,Dothan
+304,8,zip code,36301,36303
+304,9,county name,houston,Houston
+304,10,phone number,3349876543,3349876542
+304,17,score,93%,94%
+304,18,sample,55 patients,54 patients
+305,1,provider number,20015,20025
+305,3,address1,1650 Cowles Street,1650 Cowles St
+305,6,city,Fairbanks,Fairbank
+305,8,zip code,99701,99702
+305,10,phone number,9074585555,9074585556
+305,17,score,78%,77%
+305,18,sample,42 patients,43 patients
+306,1,provider number,30028,30082
+306,4,address2,Building B,Building C
+306,5,address3,Suite 100,Suite 101
+306,8,zip code,99508,99507
+306,10,phone number,9072127620,9072127621
+306,17,score,95%,96%
+306,18,sample,93 patients,94 patients
+307,1,provider number,40012,40021
+307,4,address2,empty,Unit A
+307,5,address3,empty,Suite 1
+307,8,zip code,72211,72201
+307,10,phone number,5012197000,5012197001
+307,17,score,88%,80%
+307,18,sample,62 patients,60 patients
+308,1,provider number,30012,31012
+308,4,address2,suite 200,suite 201
+308,8,zip code,90210,90211
+308,10,phone number,3105551234,3105551235
+308,17,score,78%,80%
+308,18,sample,150 patients,155 patients
+309,8,zip code,24874,2487
+309,10,phone number,3047778888,304777888
+310,8,zip code,37683,37863
+310,10,phone number,4239991111,423999111
+311,10,phone number,7709918000,770991800
+312,1,provider number,20015,20014
+312,4,address2,empty,suite 101
+312,5,address3,empty,suite 102
+312,8,zip code,99508,99507
+312,10,phone number,9075622211,9075622212
+312,17,score,79%,78%
+312,18,sample,42 patients,40 patients
+313,1,provider number,30012,30112
+313,4,address2,empty,building 2
+313,8,zip code,85351,85361
+313,10,phone number,6238324000,6238324001
+313,17,score,76%,74%
+313,18,sample,35 patients,30 patients
+314,1,provider number,20029,20019
+314,4,address2,suite 100,suite 101
+314,5,address3,empty,suite 102
+314,8,zip code,99709,99719
+314,10,phone number,9074528181,9074528182
+314,17,score,78%,80%
+314,18,sample,45 patients,50 patients
+315,0,index,552,553
+315,1,provider number,30015,30051
+315,2,hospital name,flagstaff medical center,flagstaff medicall center
+315,3,address1,1200 north beaver street,1201 north beaver street
+315,4,address2,empty,suite 200
+315,5,address3,empty,suite 201
+315,6,city,flagstaff,flagstafff
+315,8,zip code,86001,86011
+315,9,county name,coconino,coconinoo
+315,17,score,85%,86%
+315,18,sample,98 patients,99 patients
+316,0,index,713,714
+316,1,provider number,40010,40001
+316,3,address1,4212 north 16th street,4213 north 16th street
+316,4,address2,empty,suite 100
+316,5,address3,empty,suite 101
+316,6,city,phoenix,phhoenix
+316,8,zip code,85016,85017
+316,9,county name,maricopa,maricoppa
+317,0,index,302,303
+317,1,provider number,20029,20092
+317,2,hospital name,fairbanks memorial hospital,fairbanks memoriall hospital
+317,3,address1,1650 cowles street,1651 cowles street
+317,4,address2,suite 121,suite 120
+317,5,address3,empty,suite 122
+317,6,city,fairbanks,fairbankss
+317,8,zip code,99701,99702
+317,17,score,78%,79%
+317,18,sample,40 patients,41 patients
+318,2,hospital name,phoenix children's hospital,phoenix childrens hospital
+318,10,phone number,6029330000,6029330001
+319,10,phone number,6238796100,6238796101
+320,10,phone number,9077144404,9077144405
+321,2,hospital name,flagstaff medical center,flagstaaf medical center
+321,8,zip code,86001,86010
+321,17,score,89%,86%
+322,6,city,tucson,tuscon
+322,8,zip code,85719,85710
+322,17,score,85%,82%
+323,2,hospital name,central hospital of springfield,central hospital of springfielld
+323,8,zip code,62701,62720
+323,17,score,84%,82%
+324,8,zip code,90210,90201
+324,10,phone number,3109876543,3109876542
+324,17,score,79%,80%
+324,18,sample,45 patients,46 patients
+324,19,stateavg,ca_st-6,ca_st-5
+325,2,hospital name,mountain view regional medical center,mounatin view regional medical center
+325,6,city,mountain city,moutain city
+325,8,zip code,37683,37638
+325,10,phone number,4235557890,4235557891
+325,17,score,91%,90%
+325,18,sample,67 patients,68 patients
+325,19,stateavg,tn_hip-knee-3,tn_hip-knee-4
+326,2,hospital name,northern lights regional health centre,northern lights regional health center
+326,8,zip code,85002,85003
+326,10,phone number,7807916161,7807916162
+326,17,score,78%,77%
+326,18,sample,45 patients,44 patients
+326,19,stateavg,ab_hf-1,ab_hf-2
+327,2,hospital name,royal alexandra hospital,royal alexandria hospital
+327,8,zip code,78022,78021
+327,10,phone number,7807354111,7807354112
+327,17,score,88%,89%
+327,18,sample,60 patients,61 patients
+328,8,zip code,57012,57021
+328,10,phone number,3066558213,3066558214
+328,17,score,94%,95%
+328,18,sample,35 patients,36 patients
+329,2,hospital name,montgomery county health department,montgomery country health department
+329,8,zip code,36108,36107
+329,10,phone number,3342936400,3342936401
+329,17,score,79%,80%
+329,18,sample,120 patients,121 patients
+330,6,city,cullman,culman
+331,6,city,birmingham,birmingha
+332,6,city,fairbanks,fairbank
+333,1,provider number,10038,10039
+333,2,hospital name,flowers hospital,flowrs hospital
+333,3,address1,4370 west main street,4370 west main st
+333,4,address2,empty,suite 200
+333,8,zip code,36305,36035
+333,9,county name,houston,houstn
+333,10,phone number,3347935000,3347935001
+333,15,measure code,pn-3b,pn-3c
+333,16,measure name,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,pneumonia patients initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics
+333,17,score,91%,92%
+333,18,sample,210 patients,215 patients
+333,19,stateavg,al_pn-3b,al_pn-3c
+334,1,provider number,10024,10014
+334,2,hospital name,choctaw general hospital,choctaw general hospitl
+334,3,address1,401 vanity fair avenue,401 vanity avenue
+334,8,zip code,36904,36940
+334,10,phone number,2054594011,2054594012
+334,15,measure code,ami-8a,ami-8b
+334,17,score,83%,84%
+334,18,sample,42 patients,43 patients
+334,19,stateavg,al_ami-8a,al_ami-8b
+335,1,provider number,20001,20010
+335,2,hospital name,alaska general hospital,alaska general hospitl
+335,3,address1,123 main street,123 main st
+335,4,address2,suite 100,suite 101
+335,8,zip code,99501,99510
+335,10,phone number,9075551234,9075551235
+335,15,measure code,hf-1,hf-2
+335,17,score,85%,86%
+335,18,sample,150 patients,155 patients
+335,19,stateavg,ak_hf-1,ak_hf-2
+336,1,provider number,30012,30112
+336,2,hospital name,mountain view medical center,Mountain View Medical Center
+336,3,address1,800 oak street,800 Oak St
+336,4,address2,suite 200,Suite 201
+336,5,address3,empty,nan
+336,6,city,denver,Denver
+336,8,zip code,80210,80211
+336,9,county name,denver,Denver
+336,10,phone number,3039876543,3039876544
+336,15,measure code,st-1,st-2
+336,16,measure name,stroke patients assessed for rehabilitation,Stroke Patients Assessed for Rehab
+336,17,score,78%,77%
+336,18,sample,90 patients,91 patients
+336,19,stateavg,co_st-1,co_st-2
+337,1,provider number,20010,20110
+337,2,hospital name,Fairbanks Memorial Hospital,Fairbanks Memorial Hosp
+337,3,address1,1650 Cowles Street,165 Cowles St
+337,4,address2,Suite 207,Suite 207B
+337,5,address3,empty,nan
+337,8,zip code,99701,99702
+337,10,phone number,9074585555,9074585556
+337,15,measure code,hf-4,hf-5
+337,16,measure name,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),Heart Failure Patients Given ACE Inhibitor
+337,17,score,82%,81%
+337,18,sample,125 patients,120 patients
+337,19,stateavg,ak_hf-4,ak_hf-5
+338,1,provider number,10025,10052
+338,2,hospital name,St. Vincent's East,St. Vincent's East Hospital
+338,3,address1,50 Medical Park East Drive,50 Med Park East Dr
+338,4,address2,empty,Unit 1
+338,5,address3,empty,nan
+338,8,zip code,35235,35255
+338,10,phone number,2058383000,2058383001
+338,15,measure code,hf-3,hf-2
+338,16,measure name,heart failure patients given discharge instructions,HF Patients Given Discharge Instructions
+338,17,score,95%,96%
+338,18,sample,112 patients,110 patients
+338,19,stateavg,al_hf-3,al_hf-2
+339,4,address2,empty,unit 201
+339,8,zip code,36426,36425
+339,10,phone number,2518098280,2518098281
+339,17,score,78%,77%
+339,18,sample,43 patients,44 patients
+340,1,provider number,10012,10013
+340,8,zip code,91763,91764
+340,10,phone number,9096255411,9096255410
+340,17,score,95%,94%
+340,18,sample,120 patients,121 patients
+341,4,address2,empty,unit 101
+341,7,state,in,ia
+341,8,zip code,46321,46322
+341,10,phone number,2198361600,2198361601
+341,17,score,88%,89%
+341,18,sample,150 patients,151 patients
+341,19,stateavg,in_scip-inf-2,ia_scip-inf-2
+342,4,address2,empty,unit 201
+342,6,city,quincy,qunicy
+342,8,zip code,62301,62305
+342,10,phone number,2172238400,2172338400
+342,17,score,79%,81%
+342,18,sample,35 patients,33 patients
+343,4,address2,empty,suite 101
+343,8,zip code,99701,99703
+343,17,score,82%,85%
+343,18,sample,40 patients,42 patients
+344,4,address2,empty,apt 302
+344,8,zip code,85202,85212
+344,14,condition,heart attack,heart attach
+344,17,score,74%,72%
+344,18,sample,48 patients,45 patients
+345,4,address2,empty,suite 101
+345,8,zip code,72032,72033
+345,10,phone number,5015852000,5015852001
+345,17,score,88%,89%
+345,18,sample,58 patients,59 patients
+346,6,city,sunnyvale,sunyvale
+346,8,zip code,94086,94085
+346,10,phone number,4085551234,4085551235
+346,17,score,95%,94%
+346,18,sample,150 patients,149 patients
+347,4,address2,suite 201,suite 202
+347,8,zip code,90001,90002
+347,10,phone number,3109876543,3109876544
+347,17,score,88%,87%
+347,18,sample,80 patients,81 patients
+348,2,hospital name,mountain view community hospital,moutain view community hospital
+348,6,city,mountain view,moutain view
+348,10,phone number,6502223333,6502223334
+348,17,score,91%,92%
+349,8,zip code,99801,99081
+349,17,score,89%,88%
+350,8,zip code,80210,80201
+350,10,phone number,3039876543,3039876542
+350,17,score,94%,95%
+351,8,zip code,36116,36115
+351,10,phone number,3342882100,3342882101
+351,17,score,91%,90%
+351,18,sample,120 patients,121 patients
+352,8,zip code,99508,99509
+352,10,phone number,9075622211,9075622212
+352,17,score,79%,80%
+352,18,sample,45 patients,46 patients
+353,8,zip code,99701,99702
+353,10,phone number,9074528181,9074528182
+353,17,score,78%,77%
+353,18,sample,42 patients,43 patients
+354,1,provider number,30012,30021
+354,4,address2,empty,building 7
+354,5,address3,empty,suite 105
+354,8,zip code,85364,85306
+354,10,phone number,9283442000,9283421000
+354,17,score,88%,85%
+354,18,sample,123 patients,120 patients
+355,1,provider number,20024,20042
+355,4,address2,suite 206,unit 206
+355,5,address3,empty,suite 3A
+355,8,zip code,99701,99702
+355,10,phone number,9074528181,9074528111
+355,17,score,79%,77%
+355,18,sample,35 patients,30 patients
+356,1,provider number,30014,30041
+356,4,address2,empty,suite 15
+356,5,address3,empty,room 102
+356,8,zip code,86001,86011
+356,10,phone number,9287732113,9287731211
+356,17,score,88%,85%
+356,18,sample,42 patients,40 patients
+357,1,provider number,40009,40090
+357,8,zip code,86001,86011
+357,10,phone number,9287732011,9287732012
+357,17,score,93%,94%
+358,1,provider number,20009,20090
+358,8,zip code,99669,99659
+358,10,phone number,9077144404,9077144405
+358,17,score,78%,80%
+359,1,provider number,10018,10081
+359,8,zip code,35233,35232
+359,10,phone number,2059344011,2059344012
+359,17,score,84%,85%
+360,4,address2,empty,suite 200
+360,10,phone number,2518678061,2518678062
+360,17,score,90%,91%
+360,18,sample,58 patients,60 patients
+361,4,address2,empty,suite 100
+361,10,phone number,3347938701,3347938702
+361,17,score,79%,80%
+361,18,sample,45 patients,50 patients
+362,4,address2,empty,suite 300
+362,10,phone number,9078616000,9078616001
+362,17,score,77%,76%
+362,18,sample,18 patients,20 patients
+363,8,zip code,99701,99710
+363,10,phone number,9074528181,9074528180
+363,17,score,89%,88%
+363,18,sample,105 patients,106 patients
+364,8,zip code,36426,36420
+364,10,phone number,2518678061,2518678062
+364,17,score,74%,75%
+364,18,sample,42 patients,41 patients
+365,8,zip code,99508,99580
+365,10,phone number,9075632662,9075632663
+365,17,score,88%,87%
+365,18,sample,67 patients,66 patients
+365,19,stateavg,ak_pn-4,ak_pn-5
+366,1,provider number,40012,40021
+366,2,hospital name,sunset hospital,sunet hospital
+366,3,address1,1234 main street,1234 main st
+366,8,zip code,90210,90201
+366,10,phone number,3105551234,3105551235
+366,17,score,84%,82%
+366,18,sample,95 patients,90 patients
+367,1,provider number,30025,30205
+367,2,hospital name,pinecrest medical center,pincrest medical center
+367,3,address1,800 oak avenue,800 oak ave
+367,8,zip code,28208,28280
+367,10,phone number,7049876543,7049876540
+367,17,score,79%,75%
+367,18,sample,42 patients,40 patients
+368,1,provider number,10022,10032
+368,3,address1,2105 east south boulevard,2105 east south blvd
+368,4,address2,empty,suite 101
+368,5,address3,empty,room A
+368,8,zip code,36116,36106
+368,10,phone number,3342882100,3342882101
+368,17,score,89%,91%
+368,18,sample,45 patients,50 patients
+369,1,provider number,10025,10026
+369,4,address2,empty,unit 301
+369,5,address3,empty,suite 2
+369,8,zip code,36301,36310
+369,10,phone number,3347938701,3347938702
+369,15,measure code,scip-inf-1,scip-inf-2
+369,17,score,95%,94%
+369,18,sample,120 patients,118 patients
+369,19,stateavg,al_scip-inf-1,al_scip-inf-2
+370,1,provider number,10036,10039
+370,4,address2,empty,suite 100
+370,5,address3,empty,floor 3
+370,8,zip code,36732,36731
+370,10,phone number,3342894000,3342894002
+370,15,measure code,ami-8b,ami-8c
+370,17,score,79%,81%
+370,18,sample,42 patients,45 patients
+370,19,stateavg,al_amix8b,al_amix8c
+371,1,provider number,10021,10022
+371,4,address2,empty,suite 101
+371,5,address3,empty,floor 2
+371,8,zip code,35235,35236
+371,10,phone number,2058383000,2058383002
+371,15,measure code,ami-3,ami-4
+371,17,score,95%,93%
+371,18,sample,102 patients,100 patients
+371,19,stateavg,al_ami-3,al_ami-4
+372,4,address2,empty,unit 103
+372,8,zip code,93703,93702
+372,10,phone number,5592256100,5592256101
+372,17,score,83%,85%
+372,18,sample,38 patients,40 patients
+373,2,hospital name,anchorage general hospital,anchor general hospital
+373,4,address2,empty,suite 201
+373,8,zip code,99501,99502
+373,10,phone number,9072724875,9072724876
+373,17,score,83%,82%
+373,18,sample,94 patients,90 patients
+374,4,address2,empty,building B
+374,8,zip code,35209,35208
+374,10,phone number,2058772932,2058772933
+374,17,score,88%,90%
+374,18,sample,123 patients,120 patients
+375,1,provider number,20009,20019
+375,2,hospital name,grandview medical center,grandview medical centar
+375,6,city,birmingham,birminghan
+375,8,zip code,35243,35283
+375,10,phone number,2059711000,2059711009
+375,17,score,85%,80%
+375,18,sample,120 patients,125 patients
+376,1,provider number,10018,10081
+376,2,hospital name,cullman regional medical center,culman regional medical center
+376,6,city,cullman,culman
+376,8,zip code,35058,35085
+376,9,county name,cullman,culman
+376,10,phone number,2567372000,2567372007
+376,17,score,93%,95%
+376,18,sample,45 patients,40 patients
+377,1,provider number,10036,10063
+377,8,zip code,36420,36402
+377,10,phone number,3342228466,3342228469
+377,17,score,78%,75%
+377,18,sample,35 patients,30 patients
+378,1,provider number,20019,20029
+378,2,hospital name,northern lights regional health centre,northern lites regional health centre
+378,3,address1,5003 42 street,5003 42nd street
+378,8,zip code,78901,78910
+378,10,phone number,7807916161,7807916162
+378,16,measure name,stroke patients assessed for rehabilitation,stroke patients accessed for rehabilitation
+378,17,score,89%,88%
+378,18,sample,45 patients,44 patients
+378,19,stateavg,ab_stroke-2,ab_stroke-3
+379,1,provider number,30009,30090
+379,3,address1,700 main street,700 main st
+379,8,zip code,25301,25310
+379,10,phone number,3045551234,3045551243
+379,17,score,78%,77%
+379,18,sample,65 patients,64 patients
+379,19,stateavg,wv_hf-1,wv_hf-2
+380,1,provider number,40027,40072
+380,8,zip code,28801,28802
+380,10,phone number,8289876543,8289876544
+380,17,score,91%,90%
+380,18,sample,37 patients,36 patients
+380,19,stateavg,nc_hip-6,nc_hip-7
+381,2,hospital name,northern lights regional health centre,northern lights regional health center
+381,8,zip code,12345,12346
+381,10,phone number,7807916161,7807916162
+381,17,score,84%,85%
+381,18,sample,120 patients,121 patients
+382,2,hospital name,sunnybrook health sciences centre,sunnybrook health science center
+382,8,zip code,54321,54320
+382,10,phone number,4164806100,4164806101
+382,17,score,91%,90%
+382,18,sample,80 patients,81 patients
+383,4,address2,suite 100,suite 101
+383,8,zip code,85541,85540
+383,10,phone number,9284721268,9284721269
+383,17,score,82%,81%
+383,18,sample,38 patients,37 patients
+384,8,zip code,74012,74102
+384,10,phone number,9183557373,9183357373
+384,17,score,89%,87%
+385,1,provider number,10036,10336
+385,17,score,75%,77%
+386,1,provider number,10036,10336
+386,17,score,77%,79%
+387,4,address2,empty,suite 101
+387,8,zip code,35968,35960
+387,10,phone number,2568453150,2568543150
+387,17,score,83%,87%
+387,18,sample,150 patients,148 patients
+388,8,zip code,35801,35810
+388,10,phone number,2562651000,2562651001
+388,17,score,95%,92%
+388,18,sample,120 patients,125 patients
+389,4,address2,suite 101,suite 102
+389,8,zip code,36116,36161
+389,10,phone number,3342882100,3342882101
+389,17,score,79%,75%
+389,18,sample,35 patients,30 patients
+390,1,provider number,10001,10011
+390,4,address2,empty,missing
+390,5,address3,empty,missing
+390,6,city,birmingham,birmangham
+390,8,zip code,35233,35234
+390,10,phone number,2059344011,2059344012
+390,14,condition,pneumonia,neumonia
+390,17,score,94%,95%
+390,18,sample,150 patients,151 patients
+391,1,provider number,10035,10045
+391,4,address2,empty,missing
+391,5,address3,empty,missing
+391,8,zip code,35150,35151
+391,10,phone number,2564014000,2564014001
+391,17,score,71%,70%
+391,18,sample,42 patients,41 patients
+392,1,provider number,20012,20021
+392,5,address3,empty,missing
+392,6,city,fairbanks,faiirbanks
+392,8,zip code,99701,99702
+392,10,phone number,9074528181,9074528182
+392,17,score,88%,87%
+392,18,sample,42 patients,41 patients
+393,2,hospital name,huntsville hospital,huntsvill hospital
+393,8,zip code,35801,35811
+393,10,phone number,2562651000,2562651001
+393,17,score,91%,92%
+394,2,hospital name,chilton medical center,chilton medical centerr
+395,2,hospital name,fairbanks memorial hospital,fairbanks memorial hospitall
+395,10,phone number,9074528181,9074528182
+395,17,score,88%,87%
+396,8,zip code,36426,36423
+396,10,phone number,2518098309,2518098300
+396,17,score,79%,78%
+396,18,sample,43 patients,42 patients
+397,1,provider number,10023,100230
+398,8,zip code,99501,99503
+399,8,zip code,80220,80221
+399,17,score,93%,94%
+400,8,zip code,85001,85010
+400,17,score,85%,84%
+401,8,zip code,99669,99668
+401,17,score,88%,89%
+402,1,provider number,30012,30021
+402,4,address2,empty,suite 100
+402,8,zip code,85206,85026
+402,10,phone number,4808545000,4808545001
+402,17,score,79%,80%
+402,18,sample,45 patients,46 patients
+403,1,provider number,40009,40090
+403,4,address2,empty,building 1
+403,8,zip code,72143,72134
+403,10,phone number,5012686121,5012686129
+403,17,score,83%,85%
+403,18,sample,33 patients,35 patients
+404,1,provider number,10022,10032
+404,8,zip code,36116,36161
+404,10,phone number,3342882100,3342882109
+404,17,score,95%,94%
+404,18,sample,110 patients,111 patients
+405,1,provider number,20009,20090
+405,3,address1,3200 providence drive,320 providence drive
+406,10,phone number,2565718000,2565178000
+407,8,zip code,99204,99404
+408,1,provider number,50032,50023
+408,2,hospital name,billings clinic hospital,billing clinic hospital
+408,3,address1,2800 10th avenue north,2800 10th ave north
+408,4,address2,empty,unit 3
+408,8,zip code,59107,59108
+408,10,phone number,4062382500,4062382501
+408,17,score,72%,70%
+408,18,sample,40 patients,41 patients
+409,1,provider number,20034,20043
+409,3,address1,1234 main street,1234 main st
+409,8,zip code,35209,35210
+409,10,phone number,2051234567,2051234568
+409,17,score,85%,82%
+409,18,sample,150 patients,155 patients
+410,1,provider number,10029,10209
+410,3,address1,2000 pepperell parkway,2000 pepperell pkwy
+410,8,zip code,36801,36802
+410,10,phone number,3347493411,3347493412
+410,17,score,78%,80%
+410,18,sample,30 patients,35 patients
+411,1,provider number,20012,20032
+411,2,hospital name,sacred heart hospital on the gulf,sacred hart hospital on the gulf
+411,8,zip code,36542,36543
+411,10,phone number,2519876543,2519876540
+411,17,score,91%,92%
+411,18,sample,45 patients,46 patients
+412,1,provider number,10012,10022
+412,2,hospital name,montgomery general hospital,montgomry general hospital
+412,8,zip code,36104,36114
+412,10,phone number,3345557890,3345557892
+412,17,score,84%,86%
+412,18,sample,112 patients,110 patients
+413,1,provider number,10022,10222
+413,8,zip code,35233,35235
+413,10,phone number,2059876543,2059876545
+413,17,score,91%,90%
+413,18,sample,45 patients,40 patients
+414,2,hospital name,mobile regional medical center,mobiel regional medical center
+414,3,address1,450 st antoine street,450 saint antoine street
+414,6,city,mobile,moble
+414,8,zip code,36607,36067
+414,17,score,79%,80%
+414,18,sample,98 patients,100 patients
+415,6,city,susanville,susanvill
+415,8,zip code,96130,96103
+415,17,score,78%,77%
+415,18,sample,40 patients,50 patients
+416,6,city,hugo,hogo
+416,8,zip code,74743,74734
+416,10,phone number,5803268304,5803268043
+416,17,score,94%,93%
+416,18,sample,120 patients,125 patients
+417,1,provider number,40009,40090
+417,6,city,cullman,culman
+417,8,zip code,35058,30558
+417,9,county name,cullman,culman
+418,1,provider number,10023,10032
+418,8,zip code,35661,53661
+419,1,provider number,10021,10012
+419,2,hospital name,infirmary west,infirmery west
+419,6,city,mobile,moblie
+419,8,zip code,36609,36069
+420,1,provider number,20022,22002
+420,2,hospital name,fairbanks memorial hospital,fairbanks memorial hospitall
+421,1,provider number,10024,10204
+421,8,zip code,35447,34447
+422,1,provider number,10035,10305
+422,8,zip code,35235,32535
+423,2,hospital name,northern lights regional health centre,northern lights regional health center
+423,4,address2,empty,unit 301
+423,8,zip code,23562,23561
+423,10,phone number,7807916161,7807916162
+423,17,score,82%,83%
+423,18,sample,120 patients,121 patients
+424,4,address2,empty,suite 100
+424,8,zip code,86314,86315
+424,10,phone number,9284452700,9284452701
+424,17,score,75%,76%
+424,18,sample,45 patients,46 patients
+425,4,address2,empty,suite 200
+425,8,zip code,85741,85742
+425,10,phone number,5207429000,5207429001
+425,17,score,88%,89%
+425,18,sample,60 patients,61 patients
+426,1,provider number,20001,20010
+426,8,zip code,99501,99500
+426,10,phone number,9075551234,9075551235
+426,17,score,88%,87%
+426,18,sample,120 patients,121 patients
+426,19,stateavg,ak_hf-1,ak_hf-2
+427,1,provider number,30012,30112
+427,2,hospital name,sunny hills rehabilitation center,sunyy hills rehabilitation center
+427,8,zip code,94086,94080
+427,10,phone number,4089876543,4089876542
+427,17,score,93%,92%
+427,18,sample,45 patients,44 patients
+428,1,provider number,40021,40012
+428,8,zip code,77002,77001
+428,10,phone number,7138765432,7138765430
+428,17,score,85%,86%
+428,18,sample,60 patients,61 patients
+428,19,stateavg,tx_sa-3,tx_sa-2
+429,2,hospital name,northern lights regional health centre,northern lights regional health center
+429,8,zip code,55555,55554
+429,10,phone number,7807916160,7807916161
+429,17,score,78%,77%
+429,18,sample,45 patients,46 patients
+430,8,zip code,78787,78788
+430,10,phone number,7056754583,7056754582
+430,17,score,93%,92%
+430,18,sample,112 patients,111 patients
+431,2,hospital name,sunnybrook health sciences centre,sunnybrook health science center
+431,8,zip code,12345,12346
+431,10,phone number,4164806100,4164806101
+431,17,score,85%,84%
+431,18,sample,98 patients,99 patients
+432,2,hospital name,birmingham hospital,birmingham medical center
+432,8,zip code,35211,35212
+432,10,phone number,2057891234,2057891235
+432,17,score,89%,88%
+432,18,sample,120 patients,121 patients
+433,17,score,75%,74%
+433,18,sample,45 patients,46 patients
+434,8,zip code,99501,99502
+434,10,phone number,9075554321,9075554322
+434,17,score,83%,84%
+434,18,sample,55 patients,54 patients
+435,4,address2,suite 200,suite 201
+435,6,city,dallas,dalas
+435,8,zip code,75235,75236
+435,10,phone number,2142312273,2142312274
+435,12,hospital owner,proprietary,proprietory
+435,15,measure code,hf-1,hf-2
+435,17,score,89%,88%
+435,18,sample,92 patients,93 patients
+435,19,stateavg,tx_hf-1,tx_hf-2
+436,6,city,anchorage,anchorgae
+436,8,zip code,99508,99580
+436,10,phone number,9075622211,9075622210
+436,15,measure code,ami-8a,ami-8b
+436,17,score,83%,82%
+436,18,sample,40 patients,39 patients
+436,19,stateavg,ak_amix8a,ak_ami-8b
+437,8,zip code,19460,19461
+437,10,phone number,6109831000,6109831001
+437,15,measure code,pn-5c,pn-6a
+437,17,score,95%,94%
+437,18,sample,120 patients,119 patients
+437,19,stateavg,pa_pn-5c,pa_pn-6a
+438,4,address2,empty,unit 201
+438,5,address3,empty,suite 100
+438,8,zip code,36116,36106
+438,10,phone number,3342882100,3342882101
+438,17,score,78%,80%
+438,18,sample,45 patients,40 patients
+439,4,address2,empty,suite 101
+439,8,zip code,36426,36427
+439,10,phone number,2518678061,2518678062
+439,17,score,85%,88%
+439,18,sample,63 patients,60 patients
+440,4,address2,empty,unit 301
+440,8,zip code,35160,35161
+440,10,phone number,2563628111,2563628112
+440,17,score,91%,95%
+440,18,sample,38 patients,35 patients
+441,5,address3,empty,missing
+441,8,zip code,32504,32540
+441,10,phone number,8504167000,8504167001
+441,17,score,78%,80%
+441,18,sample,45 patients,40 patients
+441,19,stateavg,fl_ami-8b,fl_ami-8c
+442,1,provider number,20002,20020
+442,4,address2,empty,missing
+442,8,zip code,52537,52357
+442,10,phone number,6416642145,6416642154
+442,17,score,90%,95%
+442,18,sample,32 patients,35 patients
+442,19,stateavg,ia_scip-vte-2,ia_scip-vte-3
+443,1,provider number,10028,10082
+443,4,address2,suite 303,suite 330
+443,8,zip code,36301,36310
+443,10,phone number,3347938701,3347938702
+443,17,score,84%,86%
+443,18,sample,92 patients,90 patients
+443,19,stateavg,al_hf-3,al_hf-4
+444,4,address2,empty,unit 201
+444,8,zip code,72034,72044
+444,10,phone number,5013293831,5013293832
+444,17,score,95%,92%
+444,18,sample,134 patients,130 patients
+445,4,address2,empty,suite 100
+445,10,phone number,2568453150,2568453151
+445,17,score,79%,78%
+445,18,sample,21 patients,20 patients
+446,4,address2,suite a,suite b
+446,8,zip code,99503,99501
+446,10,phone number,9075622211,9075622212
+446,17,score,79%,81%
+446,18,sample,45 patients,40 patients
+447,4,address2,suite 300,suite 400
+447,6,city,phoenix,pheonix
+447,8,zip code,85001,85011
+447,10,phone number,6029810123,6029810124
+447,17,score,88%,85%
+447,18,sample,98 patients,100 patients
+448,4,address2,unit 500,unit 505
+448,6,city,denver,denvar
+448,8,zip code,80202,80220
+448,10,phone number,3037654321,3037564321
+448,17,score,91%,89%
+448,18,sample,120 patients,125 patients
+449,4,address2,empty,building A
+449,8,zip code,99701,99705
+449,10,phone number,9074585555,9074585556
+449,13,emergency service,yes,no
+449,14,condition,heart attack,heart attach
+449,17,score,78%,80%
+449,18,sample,45 patients,50 patients
+450,4,address2,empty,Unit 202
+450,5,address3,empty,Suite 105
+451,2,hospital name,Phoenix Children's Hospital,Pheonix Children's Hospital
+451,4,address2,empty,Unit 101
+451,8,zip code,85016,85106
+452,1,provider number,20021,20012
+452,3,address1,1650 cowles street,1650 Cowles St
+452,4,address2,suite 202,Suite 202
+453,4,address2,empty,suite 101
+453,8,zip code,36426,36427
+453,10,phone number,2518678061,2518678062
+453,15,measure code,hf-1,hf-2
+453,17,score,84%,82%
+453,18,sample,97 patients,95 patients
+453,19,stateavg,al_hf-1,al_hf-2
+454,4,address2,empty,suite 200
+454,8,zip code,36305,36306
+454,10,phone number,3347945000,3347945001
+454,15,measure code,ami-8a,ami-9a
+454,17,score,73%,70%
+454,18,sample,61 patients,65 patients
+454,19,stateavg,al_amix8a,al_amix9a
+455,3,address1,123 main street,124 main street
+455,4,address2,suite 100,suite 101
+455,8,zip code,99501,99502
+455,10,phone number,9071234567,9071234568
+455,15,measure code,hf-1,hf-2
+455,17,score,95%,93%
+455,18,sample,150 patients,155 patients
+455,19,stateavg,ak_hf-1,ak_hf-2
+456,0,index,456,457
+456,1,provider number,30023,30032
+456,8,zip code,80218,80210
+456,17,score,89%,87%
+456,18,sample,80 patients,82 patients
+457,0,index,789,790
+457,1,provider number,40015,40115
+457,8,zip code,94086,94080
+457,17,score,93%,95%
+457,18,sample,45 patients,47 patients
+458,0,index,123,124
+458,1,provider number,20009,20090
+458,3,address1,300 blake boulevard,301 blake boulevard
+458,8,zip code,28374,28375
+458,17,score,78%,80%
+458,18,sample,45 patients,40 patients
+459,3,address1,4315 diplomarcy drive,4315 diplomacy drive
+459,8,zip code,99508,99507
+460,8,zip code,86515,86516
+461,8,zip code,86001,86010
+462,1,provider number,20032,20023
+462,8,zip code,97420,97421
+462,17,score,84%,82%
+462,18,sample,45 patients,46 patients
+463,1,provider number,30012,30112
+463,8,zip code,97477,97407
+463,17,score,91%,93%
+463,18,sample,34 patients,35 patients
+464,1,provider number,40027,42007
+464,6,city,aurora,arvada
+464,8,zip code,80045,80047
+464,17,score,94%,96%
+465,2,hospital name,fairbanks memorial hospital,fairbank memorial hospital
+465,8,zip code,99701,99702
+465,10,phone number,9074585555,9074585556
+465,17,score,89%,88%
+465,18,sample,120 patients,121 patients
+465,19,stateavg,ak_hf-3,ak_hf-4
+466,2,hospital name,helen keller memorial hospital,helen keller memorial hospita
+466,8,zip code,35660,35661
+466,10,phone number,2563864556,2563864557
+466,17,score,91%,92%
+466,18,sample,150 patients,151 patients
+466,19,stateavg,al_scip-inf-2,al_scip-inf-3
+467,8,zip code,36109,36108
+467,10,phone number,3342724670,3342724671
+467,17,score,78%,77%
+467,18,sample,45 patients,46 patients
+467,19,stateavg,al_ami-8a,al_ami-8b
+468,1,provider number,20033,20333
+468,2,hospital name,northwest medical center,northwest medical cente
+468,3,address1,123 main street,123 main stret
+468,6,city,springfield,springfiel
+468,8,zip code,62701,62710
+468,10,phone number,2175551234,2175551235
+468,15,measure code,hf-1,hf-2
+468,16,measure name,heart failure patients given discharge instructions,heart failure patients given discharge instruction
+468,17,score,85%,84%
+468,18,sample,100 patients,101 patients
+468,19,stateavg,il_hf-1,il_hf-2
+469,1,provider number,40012,40021
+469,2,hospital name,sunset valley medical center,sunset valley medical cente
+469,5,address3,empty,empt
+469,6,city,phoenix,phoeni
+469,8,zip code,85001,85010
+469,10,phone number,6029876543,6029876544
+469,15,measure code,st-1,st-2
+469,17,score,78%,77%
+469,18,sample,50 patients,49 patients
+469,19,stateavg,az_st-1,az_st-2
+470,1,provider number,30025,30052
+470,2,hospital name,central regional medical center,central regional medical cente
+470,3,address1,500 main avenue,500 main avenu
+470,6,city,dallas,dalla
+470,8,zip code,75201,75210
+470,10,phone number,2143335678,2143335679
+470,15,measure code,hipr-2,hipr-3
+470,17,score,93%,92%
+470,18,sample,40 patients,41 patients
+470,19,stateavg,tx_hipr-2,tx_hipr-3
+471,8,zip code,90210,902100
+472,8,zip code,28134,281340
+473,8,zip code,33123,33132
+473,10,phone number,3057774567,3057774576
+474,0,index,321,312
+474,1,provider number,20089,2089
+474,2,hospital name,northern lights regional health centre,northern lights regional health center
+474,3,address1,7 hospital drive,7 hospital dr
+474,4,address2,suite 200,suite 20
+474,5,address3,empty,nan
+474,8,zip code,57589,5789
+474,10,phone number,7807916161,7807916162
+475,0,index,532,523
+475,1,provider number,30024,32004
+475,4,address2,suite 100,suite 10
+475,5,address3,empty,nan
+475,8,zip code,38834,3834
+475,10,phone number,6622931000,6622931001
+475,17,score,78%,79%
+475,18,sample,40 patients,41 patients
+476,0,index,716,761
+476,1,provider number,40032,40023
+476,3,address1,56 franklin street,56 franklin st
+476,4,address2,suite 300,suite 30
+476,5,address3,empty,nan
+476,8,zip code,6702,6720
+476,10,phone number,2037096000,2037096001
+476,17,score,91%,92%
+476,18,sample,150 patients,151 patients
+477,5,address3,empty,missing
+477,8,zip code,99669,99661
+477,10,phone number,9077144500,9077145500
+477,17,score,78%,81%
+477,18,sample,42 patients,45 patients
+478,1,provider number,30015,30115
+478,8,zip code,85016,85106
+478,10,phone number,6029331000,6029331001
+478,17,score,95%,94%
+478,18,sample,63 patients,60 patients
+479,1,provider number,40027,40227
+479,4,address2,empty,missing
+479,5,address3,empty,missing
+479,8,zip code,44857,44757
+479,10,phone number,4196688101,4196688109
+479,17,score,89%,87%
+479,18,sample,98 patients,92 patients
+480,8,zip code,99501,99502
+480,10,phone number,9075551234,9075551235
+480,17,score,83%,82%
+480,18,sample,150 patients,151 patients
+481,1,provider number,10023,10024
+481,2,hospital name,birmingham medical center,birminghan medical center
+481,8,zip code,35209,35210
+481,10,phone number,2059876543,2059876542
+481,17,score,91%,90%
+481,18,sample,120 patients,119 patients
+482,1,provider number,10036,10063
+482,8,zip code,35223,35234
+482,10,phone number,2058765432,2058765430
+482,17,score,95%,94%
+482,18,sample,80 patients,81 patients
+483,1,provider number,20019,20091
+483,4,address2,empty,apt 302
+483,5,address3,empty,nan
+483,10,phone number,9074528181,9074528180
+483,17,score,78%,82%
+483,18,sample,42 patients,40 patients
+484,1,provider number,30027,30072
+484,4,address2,empty,suite 501
+484,5,address3,empty,nan
+484,8,zip code,85016,85106
+484,10,phone number,6029331000,6029331005
+484,17,score,88%,80%
+484,18,sample,64 patients,60 patients
+485,1,provider number,40039,40309
+485,4,address2,empty,floor 5
+485,5,address3,empty,nan
+485,8,zip code,85004,85040
+485,10,phone number,6024171400,6024171401
+485,17,score,65%,69%
+485,18,sample,17 patients,16 patients
+486,5,address3,empty,missing
+486,8,zip code,99701,9970
+486,10,phone number,9074528181,9075428181
+486,17,score,88%,85%
+486,18,sample,112 patients,110 patients
+487,4,address2,empty,missing
+487,8,zip code,85364,8536
+487,10,phone number,9283442000,9283342000
+487,17,score,82%,80%
+487,18,sample,45 patients,40 patients
+488,4,address2,empty,missing
+488,8,zip code,89015,8915
+488,10,phone number,7026165000,7026105000
+488,17,score,75%,70%
+488,18,sample,64 patients,60 patients
+489,8,zip code,36116,36161
+489,10,phone number,3342882100,3342882101
+489,17,score,84%,81%
+489,18,sample,150 patients,148 patients
+490,8,zip code,36116,36161
+490,10,phone number,3342882100,3342882101
+490,17,score,79%,75%
+490,18,sample,48 patients,50 patients
+491,8,zip code,99701,99710
+491,10,phone number,9074528181,9074528180
+491,17,score,78%,80%
+491,18,sample,34 patients,35 patients
+492,1,provider number,10026,10226
+492,4,address2,empty,suite 100
+492,10,phone number,2568453150,2568453100
+493,1,provider number,20001,20010
+493,8,zip code,99508,99058
+493,10,phone number,9072761131,9072711131
+494,8,zip code,99709,99790
+494,10,phone number,9074567890,9074567891
+495,1,provider number,30014,30024
+495,8,zip code,85001,85010
+495,10,phone number,6029876543,6029876544
+495,17,score,78%,79%
+496,1,provider number,40021,40012
+496,8,zip code,90001,90010
+496,10,phone number,2135556789,2135556788
+496,17,score,92%,91%
+497,1,provider number,20009,20090
+497,8,zip code,99669,99679
+497,10,phone number,9077144404,9077144405
+497,17,score,82%,81%
+498,4,address2,empty,unit 202
+499,4,address2,suite 100,suite 105
+500,4,address2,suite 1,suite 2
+501,1,provider number,20012,20021
+501,2,hospital name,providence alaska medical center,Providence Alaska Medical Center
+501,3,address1,3200 providence drive,3200 Providence Drive
+501,6,city,anchorage,Anchorage
+501,9,county name,anchorage,Anchorage
+502,1,provider number,20021,200211
+502,2,hospital name,Fairbanks Memorial Hospital,Firbanks Memorial Hospital
+504,4,address2,empty,unit 101
+504,6,city,Centreville,Centerville
+504,10,phone number,2059264881,2059264882
+504,17,score,82%,81%
+504,18,sample,42 patients,40 patients
+505,6,city,springfield,Springfield
+505,10,phone number,2175551234,2175551235
+505,17,score,85%,86%
+505,18,sample,100 patients,105 patients
+506,6,city,springfield,Springfield
+506,10,phone number,4177774567,4177774568
+506,17,score,78%,77%
+506,18,sample,50 patients,55 patients
+507,8,zip code,14602,14062
+507,10,phone number,5858887890,5858887891
+507,17,score,92%,91%
+507,18,sample,75 patients,74 patients
+508,10,phone number,9074587000,9074587001
+509,8,zip code,99508,99580
+509,10,phone number,9075622211,9075622221
+510,0,index,221,222
+510,1,provider number,30009,30090
+510,8,zip code,35904,35905
+510,10,phone number,2565469265,2565469266
+510,17,score,89%,88%
+510,18,sample,140 patients,141 patients
+511,0,index,567,568
+511,1,provider number,20023,20032
+511,8,zip code,99701,99702
+511,10,phone number,9074528181,9074528182
+511,17,score,78%,77%
+511,18,sample,40 patients,41 patients
+512,0,index,123,124
+512,1,provider number,20025,20028
+512,8,zip code,35660,35661
+512,10,phone number,2569733000,2569733001
+512,17,score,85%,86%
+512,18,sample,120 patients,121 patients
+513,2,hospital name,arkansas children's hospital,arkansaw children's hospital
+513,3,address1,1 children's way,1 childrens way
+513,8,zip code,72202,72222
+513,10,phone number,5013641100,5013641000
+513,17,score,93%,94%
+513,18,sample,50 patients,51 patients
+514,3,address1,3701 st charles avenue,3701 st charles ave
+514,8,zip code,70115,70114
+514,10,phone number,5048995151,5048995150
+514,17,score,84%,85%
+514,18,sample,110 patients,111 patients
+515,3,address1,987 drayton street,987 drayton st
+515,8,zip code,36323,36333
+515,10,phone number,3348972257,3348972258
+515,17,score,78%,79%
+515,18,sample,40 patients,41 patients
+516,1,provider number,20018,20028
+516,4,address2,empty,suite 100
+516,8,zip code,20017,20018
+516,10,phone number,2022697000,2022697001
+516,17,score,91%,89%
+516,18,sample,82 patients,81 patients
+517,1,provider number,20028,20023
+517,8,zip code,99501,99502
+517,10,phone number,9075633200,9075633201
+517,17,score,82%,85%
+517,18,sample,105 patients,108 patients
+518,1,provider number,30017,30027
+518,8,zip code,85712,85713
+518,10,phone number,5203275461,5203275462
+518,17,score,91%,89%
+518,18,sample,64 patients,60 patients
+519,1,provider number,40025,40052
+519,2,hospital name,providence saint joseph medical center,providence saint jseph medical center
+519,8,zip code,91505,91550
+519,17,score,88%,82%
+519,18,sample,43 patients,40 patients
+520,1,provider number,20034,20043
+520,2,hospital name,north slope borough hospital,north slope borough hospitl
+520,8,zip code,99723,99732
+520,17,score,85%,88%
+520,18,sample,45 patients,41 patients
+521,1,provider number,30019,30091
+521,8,zip code,85016,85106
+521,17,score,91%,95%
+521,18,sample,66 patients,68 patients
+522,8,zip code,55805,55850
+522,10,phone number,2187864000,2187864009
+522,17,score,88%,85%
+522,18,sample,38 patients,30 patients
+523,8,zip code,36301,36310
+523,10,phone number,3347938701,3347938702
+523,17,score,89%,88%
+523,18,sample,104 patients,110 patients
+524,8,zip code,35160,35170
+524,10,phone number,2563628111,2563628119
+524,17,score,76%,74%
+524,18,sample,67 patients,60 patients
+525,1,provider number,10024,10034
+525,2,hospital name,university of south alabama medical center,universiti of south alabama medical center
+525,4,address2,empty,suite 101
+525,5,address3,empty,floor 3
+525,8,zip code,36617,36618
+525,10,phone number,2514717000,2514727000
+525,15,measure code,pn-8,pn-9
+525,17,score,94%,92%
+525,18,sample,145 patients,140 patients
+525,19,stateavg,al_pn-8,al_pn-9
+526,1,provider number,20030,20035
+526,4,address2,suite 100,suite 101
+526,8,zip code,99801,99802
+526,10,phone number,9071234567,9071234568
+526,15,measure code,hf-1,hf-2
+526,17,score,82%,85%
+526,18,sample,45 patients,40 patients
+526,19,stateavg,ak_hf-1,ak_hf-2
+527,1,provider number,30012,30021
+527,4,address2,unit 201,unit 202
+527,5,address3,tower 3,tower 2
+527,8,zip code,85001,85002
+527,10,phone number,6029876543,6029876544
+527,15,measure code,stroke-2,stroke-3
+527,17,score,79%,77%
+527,18,sample,68 patients,65 patients
+527,19,stateavg,az_stroke-2,az_stroke-3
+528,1,provider number,20089,20099
+528,8,zip code,35216,35215
+528,10,phone number,2055556789,2055556780
+528,17,score,89%,87%
+528,18,sample,120 patients,122 patients
+529,1,provider number,10072,10027
+529,8,zip code,36608,36688
+529,10,phone number,2519876543,2519876542
+529,17,score,82%,85%
+529,18,sample,95 patients,90 patients
+530,1,provider number,10023,10223
+530,8,zip code,35903,35930
+530,10,phone number,2565439530,2565439535
+530,17,score,84%,82%
+530,18,sample,110 patients,115 patients
+531,4,address2,empty,unit 200
+531,8,zip code,36732,36733
+531,9,county name,marengo,marango
+531,10,phone number,3342894000,3342894001
+531,17,score,79%,80%
+531,18,sample,35 patients,36 patients
+532,2,hospital name,community hospital inc,communiti hospital inc
+532,6,city,tallassee,tallasee
+532,8,zip code,36078,36079
+532,10,phone number,3342836541,3342836542
+532,17,score,88%,87%
+532,18,sample,50 patients,51 patients
+533,8,zip code,90210,90211
+533,10,phone number,3105556789,3105556780
+533,17,score,94%,93%
+533,18,sample,120 patients,121 patients
+534,2,hospital name,sunnydale medical center,sunnydale medical centre
+534,8,zip code,33125,33124
+534,10,phone number,3057771234,3057771235
+534,17,score,88%,89%
+534,18,sample,55 patients,54 patients
+535,3,address1,700 beach boulevard,701 beach boulevard
+535,4,address2,suite 300,suite 301
+535,8,zip code,90802,90820
+535,10,phone number,5623339876,5623339877
+535,17,score,85%,86%
+535,18,sample,42 patients,41 patients
+536,8,zip code,35630,35631
+536,10,phone number,2567688401,2567688402
+536,17,score,84%,83%
+536,18,sample,150 patients,151 patients
+537,4,address2,empty,unit 5
+537,6,city,birmingham,birmngham
+537,8,zip code,35233,35230
+537,10,phone number,2059338101,2059338102
+537,17,score,79%,80%
+537,18,sample,45 patients,46 patients
+538,8,zip code,35401,35402
+538,10,phone number,2057597111,2057597112
+538,17,score,88%,89%
+538,18,sample,100 patients,101 patients
+539,4,address2,suite 200,suite 201
+539,8,zip code,35209,35208
+539,10,phone number,2059876543,2059876544
+539,17,score,95%,94%
+539,18,sample,50 patients,49 patients
+540,4,address2,building 5,building 6
+540,6,city,tuskegee,tuscaloosa
+540,8,zip code,36083,36084
+540,10,phone number,3347270550,3347270551
+540,17,score,88%,87%
+540,18,sample,100 patients,99 patients
+541,1,provider number,10023,10024
+541,8,zip code,36607,36617
+541,10,phone number,2514351200,2514351201
+541,17,score,90%,89%
+541,18,sample,120 patients,121 patients
+542,1,provider number,20009,20090
+542,6,city,anchorage,juneau
+542,8,zip code,99501,99502
+542,10,phone number,9072585048,9072585047
+542,17,score,78%,77%
+542,18,sample,43 patients,44 patients
+543,8,zip code,86001,86011
+543,17,score,73%,71%
+543,18,sample,31 patients,33 patients
+544,8,zip code,85006,85060
+544,17,score,89%,84%
+544,18,sample,201 patients,221 patients
+545,8,zip code,96815,96816
+545,10,phone number,8085551234,8085551243
+545,17,score,95%,93%
+545,18,sample,120 patients,116 patients
+546,0,index,456,457
+546,1,provider number,30009,30090
+546,6,city,phoenix,pheonix
+546,8,zip code,85001,85010
+546,10,phone number,6029876543,6029876544
+546,17,score,88%,87%
+546,18,sample,45 patients,46 patients
+547,0,index,789,790
+547,1,provider number,40012,40021
+547,8,zip code,55416,55417
+547,10,phone number,6123337890,6123337891
+547,17,score,93%,94%
+547,18,sample,65 patients,66 patients
+548,0,index,302,303
+548,1,provider number,10028,10082
+548,8,zip code,36545,36546
+548,10,phone number,2512469021,2512469022
+548,17,score,85%,84%
+548,18,sample,45 patients,44 patients
+549,1,provider number,20005,20015
+549,4,address2,empty,suite 100
+549,17,score,78%,76%
+549,18,sample,33 patients,35 patients
+550,4,address2,empty,suite 200
+550,17,score,89%,88%
+550,18,sample,60 patients,62 patients
+551,17,score,89%,87%
+551,18,sample,95 patients,90 patients
+552,4,address2,empty,unit 105
+552,8,zip code,85364,85365
+552,10,phone number,9283442000,9283442001
+552,17,score,74%,72%
+552,18,sample,48 patients,50 patients
+553,4,address2,empty,suite 301
+553,8,zip code,20850,20851
+553,10,phone number,3012796000,3012796002
+553,13,emergency service,yes,no
+553,17,score,82%,85%
+553,18,sample,63 patients,65 patients
+554,8,zip code,90210,90211
+554,10,phone number,3105551234,3105551235
+554,17,score,85%,86%
+554,18,sample,120 patients,125 patients
+555,8,zip code,33133,33134
+555,10,phone number,3057895678,3057895679
+555,17,score,89%,87%
+555,18,sample,65 patients,60 patients
+556,8,zip code,75201,75202
+556,10,phone number,2143339876,2143339871
+556,17,score,93%,95%
+556,18,sample,150 workers,155 workers
+557,8,zip code,99701,99702
+557,10,phone number,9074585555,9074585551
+557,17,score,84%,82%
+557,18,sample,120 patients,125 patients
+558,1,provider number,30012,30021
+558,2,hospital name,presbyterian hospital,presbyterian hospitl
+558,3,address1,1100 central avenue se,1100 central ave se
+558,4,address2,empty,suite 101
+558,6,city,albuquerque,albuquerqe
+558,8,zip code,87106,87116
+558,9,county name,bernalillo,bernalilo
+558,10,phone number,5058411234,5058411243
+558,17,score,91%,90%
+558,18,sample,56 patients,55 patients
+559,1,provider number,40021,40012
+559,2,hospital name,flagstaff medical center,flagstaff medical cntr
+559,3,address1,1200 north beaver street,1200 n beaver st
+559,6,city,flagstaff,flagstaf
+559,8,zip code,86001,86010
+559,17,score,78%,80%
+559,18,sample,40 patients,45 patients
+560,1,provider number,20022,20023
+560,4,address2,suite 201,suite 203
+560,8,zip code,90210,90212
+560,10,phone number,3105551234,3105551243
+560,17,score,78%,80%
+560,18,sample,45 patients,40 patients
+561,1,provider number,30015,3015
+561,8,zip code,89123,89132
+562,1,provider number,40008,408
+562,3,address1,777 elm street,77 elm street
+562,8,zip code,33001,33000
+562,10,phone number,3055559876,3055558769
+563,1,provider number,20087,20078
+563,8,zip code,99503,99504
+563,10,phone number,9075551234,9075551243
+564,4,address2,building B,building C
+564,8,zip code,85001,85010
+564,10,phone number,6029876543,6029876544
+564,17,score,77%,76%
+564,18,sample,45 patients,44 patients
+565,4,address2,suite 200,suite 201
+565,8,zip code,93701,93702
+565,10,phone number,5597654321,5597654322
+565,17,score,94%,93%
+565,18,sample,35 patients,36 patients
+566,4,address2,unit 300,unit 301
+566,8,zip code,99709,99708
+566,10,phone number,9074585555,9074585556
+566,17,score,84%,85%
+566,18,sample,150 patients,149 patients
+567,1,provider number,10038,10083
+567,4,address2,empty,building 3
+567,5,address3,empty,suite 101
+567,17,score,77%,72%
+568,1,provider number,30012,30021
+568,4,address2,empty,unit 5
+568,5,address3,empty,suite 302
+568,8,zip code,85016,85061
+568,10,phone number,6029331000,6029331001
+568,17,score,93%,90%
+569,1,provider number,10078,10087
+569,17,score,82%,78%
+569,18,sample,150 patients,155 patients
+570,4,address2,empty,suite 100
+570,8,zip code,99645,99654
+570,10,phone number,9078616000,9078616001
+570,17,score,89%,88%
+570,18,sample,120 patients,121 patients
+571,1,provider number,10060,10061
+571,4,address2,empty,suite 200
+571,8,zip code,31904,31905
+571,10,phone number,7064942100,7064942101
+571,17,score,78%,79%
+571,18,sample,40 patients,41 patients
+572,1,provider number,20024,20023
+572,3,address1,250 hospital place,251 hospital place
+572,4,address2,unit 1,unit 2
+572,5,address3,floor 3,floor 4
+572,8,zip code,99669,99668
+572,10,phone number,9077144404,9077144405
+572,17,score,78%,77%
+572,18,sample,45 patients,44 patients
+573,4,address2,suite 2a,suite 2b
+575,10,phone number,2058383122,2058383221
+576,2,hospital name,andalusia regional hospital,andalusia regional hospitl
+576,8,zip code,36420,36421
+577,8,zip code,35401,35410
+578,2,hospital name,bayside community hospital,bayside community hospitl
+578,8,zip code,99601,99610
+579,1,provider number,30014,30041
+579,8,zip code,85007,85070
+579,10,phone number,6029876543,6029876544
+579,18,sample,98 patients,99 patients
+580,1,provider number,40031,40013
+580,2,hospital name,sunnyvale medical center,sunyvale medical center
+580,6,city,sunnyvale,sunyvale
+580,10,phone number,4087654321,4087654320
+581,1,provider number,10023,10032
+581,10,phone number,2055532350,2055532351
+582,1,provider number,20005,20050
+582,4,address2,empty,suite 101
+582,8,zip code,99701,99702
+582,10,phone number,9074528181,9074528182
+582,17,score,90%,88%
+582,18,sample,120 patients,122 patients
+583,1,provider number,10031,10013
+583,6,city,huntsville,hunstville
+583,8,zip code,35801,35810
+583,10,phone number,2562651000,2562651001
+583,17,score,74%,70%
+583,18,sample,35 patients,30 patients
+584,1,provider number,20026,20062
+584,8,zip code,99701,99703
+584,10,phone number,9074585555,9074585556
+584,17,score,91%,89%
+584,18,sample,127 patients,129 patients
+585,1,provider number,20011,20111
+585,4,address2,empty,apt 101
+585,5,address3,empty,building C
+585,8,zip code,99645,99646
+585,10,phone number,9078616000,9078616001
+585,12,hospital owner,proprietary,government - local
+585,17,score,89%,87%
+585,18,sample,145 patients,140 patients
+585,19,stateavg,ak_pn-3b,ak_pn-3c
+586,4,address2,suite 100,unit 200
+586,5,address3,building A,building B
+586,6,city,birmingham,birmingh
+586,10,phone number,2051234567,2051234568
+586,13,emergency service,yes,no
+586,17,score,88%,89%
+586,18,sample,150 patients,155 patients
+586,19,stateavg,al_st-4,al_st-5
+587,1,provider number,30012,31002
+587,8,zip code,36608,36618
+587,10,phone number,2519876543,2519876542
+587,12,hospital owner,proprietary,government - local
+587,17,score,82%,83%
+587,18,sample,100 patients,105 patients
+587,19,stateavg,al_hf-3,al_hf-4
+588,6,city,montgomery,montgomer
+588,8,zip code,36117,36118
+588,10,phone number,3345678901,3345678902
+588,17,score,75%,74%
+588,18,sample,80 patients,85 patients
+588,19,stateavg,al_pn-4a,al_pn-4b
+589,6,city,springfield,springfiel
+589,8,zip code,62701,62702
+589,10,phone number,2175551234,2175551235
+589,17,score,85%,86%
+589,18,sample,100 patients,105 patients
+589,19,stateavg,il_hf-1,il_hf-2
+590,6,city,los angeles,los angel
+590,8,zip code,90001,90002
+590,10,phone number,2139876543,2139876544
+590,17,score,78%,77%
+590,18,sample,50 patients,55 patients
+590,19,stateavg,ca_st-6,ca_st-7
+591,5,address3,empty,suite 101
+591,8,zip code,71360,71361
+591,10,phone number,3185556789,3185556790
+591,17,score,92%,91%
+591,18,sample,40 patients,41 patients
+592,8,zip code,99508,99580
+592,10,phone number,9075637100,9075637101
+592,17,score,95%,94%
+592,18,sample,45 patients,40 patients
+593,8,zip code,36607,36617
+593,10,phone number,2514352400,2514352401
+593,17,score,88%,89%
+593,18,sample,110 patients,111 patients

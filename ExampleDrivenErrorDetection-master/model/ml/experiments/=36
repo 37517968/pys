@@ -1,0 +1,108 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/stu/anaconda3/envs/ed2
+
+  added / updated specs:
+    - jinja2
+    - matplotlib
+    - numpy
+    - pandas
+    - scikit-learn
+    - scipy
+    - seaborn
+    - setuptools
+    - urllib3=1.21.1
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2025.8.3   |       hbd8a1cb_0         151 KB  conda-forge
+    certifi-2016.9.26          |           py27_0         217 KB  conda-forge
+    cffi-1.10.0                |           py27_0         329 KB  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+    cryptography-1.7.1         |           py27_0         848 KB  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+    cycler-0.10.0              |           py27_0          13 KB  conda-forge
+    enum34-1.1.10              |   py27h8c360ce_1          49 KB  conda-forge
+    gensim-1.0.1               |      np111py27_0         5.1 MB  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+    idna-2.10                  |     pyh9f0ad1d_0          52 KB  conda-forge
+    ipaddress-1.0.23           |             py_0          19 KB  conda-forge
+    jinja2-2.11.3              |     pyh44b312d_0          93 KB  conda-forge
+    libblas-3.9.0              |   26_linux64_mkl          16 KB  conda-forge
+    libcblas-3.9.0             |   26_linux64_mkl          16 KB  conda-forge
+    liblapack-3.9.0            |   26_linux64_mkl          16 KB  conda-forge
+    matplotlib-1.5.1           |      np111py27_0         8.4 MB  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+    numpy-1.11.3               |py27he5ce36f_1207         3.6 MB  conda-forge
+    openssl-1.0.2u             |       h516909a_0         3.2 MB  conda-forge
+    pandas-0.22.0              |           py27_1        24.0 MB  conda-forge
+    patsy-0.5.0                |           py27_0         293 KB  conda-forge
+    pyasn1-0.4.8               |             py_0          53 KB  conda-forge
+    pycairo-1.10.0             |           py27_0          81 KB  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+    pycparser-2.19             |           py27_1         172 KB  conda-forge
+    pyopenssl-17.0.0           |           py27_0          74 KB  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+    pyparsing-2.4.7            |     pyh9f0ad1d_0          60 KB  conda-forge
+    pyqt-4.11.4                |           py27_3         3.5 MB  conda-forge
+    pysocks-1.7.1              |   py27h8c360ce_1          26 KB  conda-forge
+    python-2.7.18              |       h02575d3_0         9.8 MB  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+    qt-4.8.7                   |                4        32.7 MB  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+    scikit-learn-0.18.1        |      np111py27_1        11.0 MB  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+    scipy-1.2.1                |   py27h09a28d5_1        18.1 MB  conda-forge
+    seaborn-0.8                |           py27_0         331 KB  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+    sip-4.18                   |           py27_0         264 KB  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+    statsmodels-0.9.0          |py27h3010b51_1000         8.7 MB  conda-forge
+    urllib3-1.21.1             |           py27_0         151 KB  https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+    ------------------------------------------------------------
+                                           Total:       131.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  cffi               anaconda/pkgs/free/linux-64::cffi-1.10.0-py27_0 None
+  cryptography       anaconda/pkgs/free/linux-64::cryptography-1.7.1-py27_0 None
+  cycler             conda-forge/linux-64::cycler-0.10.0-py27_0 None
+  enum34             conda-forge/linux-64::enum34-1.1.10-py27h8c360ce_1 None
+  idna               conda-forge/noarch::idna-2.10-pyh9f0ad1d_0 None
+  ipaddress          conda-forge/noarch::ipaddress-1.0.23-py_0 None
+  libblas            conda-forge/linux-64::libblas-3.9.0-26_linux64_mkl None
+  libcblas           conda-forge/linux-64::libcblas-3.9.0-26_linux64_mkl None
+  libgfortran-ng     conda-forge/linux-64::libgfortran-ng-7.5.0-h14aa051_20 None
+  libgfortran4       conda-forge/linux-64::libgfortran4-7.5.0-h14aa051_20 None
+  liblapack          conda-forge/linux-64::liblapack-3.9.0-26_linux64_mkl None
+  matplotlib         anaconda/pkgs/free/linux-64::matplotlib-1.5.1-np111py27_0 None
+  patsy              conda-forge/linux-64::patsy-0.5.0-py27_0 None
+  pyasn1             conda-forge/noarch::pyasn1-0.4.8-py_0 None
+  pycairo            anaconda/pkgs/free/linux-64::pycairo-1.10.0-py27_0 None
+  pycparser          conda-forge/linux-64::pycparser-2.19-py27_1 None
+  pyopenssl          anaconda/pkgs/free/linux-64::pyopenssl-17.0.0-py27_0 None
+  pyparsing          conda-forge/noarch::pyparsing-2.4.7-pyh9f0ad1d_0 None
+  pyqt               conda-forge/linux-64::pyqt-4.11.4-py27_3 None
+  pysocks            conda-forge/linux-64::pysocks-1.7.1-py27h8c360ce_1 None
+  qt                 anaconda/pkgs/free/linux-64::qt-4.8.7-4 None
+  seaborn            anaconda/pkgs/free/linux-64::seaborn-0.8-py27_0 None
+  sip                anaconda/pkgs/free/linux-64::sip-4.18-py27_0 None
+  statsmodels        conda-forge/linux-64::statsmodels-0.9.0-py27h3010b51_1000 None
+  urllib3            anaconda/pkgs/free/linux-64::urllib3-1.21.1-py27_0 None
+
+The following packages will be UPDATED:
+
+  python             anaconda/cloud/conda-forge::python-2.~ --> anaconda/pkgs/main::python-2.7.18-h02575d3_0 None
+  scipy              anaconda/pkgs/free::scipy-0.19.1-np11~ --> conda-forge::scipy-1.2.1-py27h09a28d5_1 None
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  ca-certificates                anaconda/cloud/conda-forge --> conda-forge None
+  certifi                        anaconda/cloud/conda-forge --> conda-forge None
+  jinja2                         anaconda/cloud/conda-forge --> conda-forge None
+  numpy              anaconda/pkgs/free::numpy-1.13.1-py27~ --> conda-forge::numpy-1.11.3-py27he5ce36f_1207 None
+  openssl            anaconda/cloud/conda-forge::openssl-1~ --> conda-forge::openssl-1.0.2u-h516909a_0 None
+  pandas             anaconda/cloud/conda-forge::pandas-0.~ --> conda-forge::pandas-0.22.0-py27_1 None
+
+The following packages will be DOWNGRADED:
+
+  gensim                                  2.3.0-np113py27_0 --> 1.0.1-np111py27_0 None
+  scikit-learn                           0.19.0-np113py27_0 --> 0.18.1-np111py27_1 None
+
+
+Proceed ([y]/n)? 

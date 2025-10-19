@@ -1,0 +1,2 @@
+error_type,affected_columns,error_description
+拼写错误,"['sample', 'measure name', 'stateavg']",在 'sample' 列中，'25 patients' 和 '2 paxienxs' 等存在拼写不一致的问题。'sample' 列中应为 'patients'，而 'paxienxs' 是 'patients' 的拼写错误。'measure name' 列中 'surgery patients who were taking heart drugs called beta blockers before coming to the hospital&#54; who were kept on the beta blockers during the period just before and after their surgery' 中的 'surgery' 与 'Heart Attack' 等存在重复或格式不一致的问题。'stateavg' 列中 'AL_AMI-7A' 和 'AL_SCIP-CARD-2' 等存在拼写不一致的问题。

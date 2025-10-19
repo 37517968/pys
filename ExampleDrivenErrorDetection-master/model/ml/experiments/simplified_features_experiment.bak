@@ -1,0 +1,245 @@
+# -*- coding: utf-8 -*-
+from ml.classes.simplified_error_detection_lib import run_error_detection_experiment, detect_errors_in_new_data
+import multiprocessing as mp
+import numpy as np
+import os
+import time
+
+from ml.datasets.flights.FlightHoloClean import FlightHoloClean
+from ml.datasets.blackOak.BlackOakDataSetUppercase import BlackOakDataSetUppercase
+from ml.datasets.hospital.HospitalHoloClean import HospitalHoloClean
+from ml.datasets.MoviesMohammad.Movies import Movies
+from ml.datasets.RestaurantMohammad.Restaurant import Restaurant
+from ml.datasets.BeersMohammad.Beers import Beers
+from ml.datasets.Citations.Citation import Citation
+from ml.datasets.salary_data.Salary import Salary
+from ml.datasets.adult.Adult import Adult
+
+from ml.active_learning.classifier.SimplifiedXGBoostClassifier import SimplifiedXGBoostClassifier
+from ml.active_learning.classifier.XGBoostClassifier import XGBoostClassifier
+from ml.active_learning.classifier.LinearSVMClassifier import LinearSVMClassifier
+from ml.active_learning.classifier.NaiveBayesClassifier import NaiveBayesClassifier
+
+from ml.configuration.Config import Config
+
+# 创建输出目录
+path_folder = Config.get("logging.folder") + "/out/simplified_holodetect"
+if not os.path.exists(path_folder):
+    os.makedirs(path_folder)
+
+# 数据集列表
+# data_list = [FlightHoloClean, BlackOakDataSetUppercase, HospitalHoloClean, Movies, Restaurant, Citation, Beers, Salary, Adult]
+data_list = [HospitalHoloClean]  # 用于测试的单个数据集
+
+# 参数配置
+parameters = []
+# 基础特征
+# parameters.append({'use_metadata': False, 'use_cond_prob': False})  # 字符unigrams
+# parameters.append({'use_metadata': False, 'use_cond_prob': False, 'is_word': True})  # 词unigrams
+# parameters.append({'use_metadata_only': True, 'use_cond_prob': False})  # 元数据
+# parameters.append({'use_metadata': False, 'ngrams': 2, 'use_cond_prob': False})  # 字符unigrams + bigrams
+# parameters.append({'use_cond_prob': False})  # 字符unigrams + 元数据
+# parameters.append({'use_cond_prob': True})  # 字符unigrams + 元数据 + 相关性
+
+# 高级特征
+parameters.append({'use_word2vec': True, 'use_word2vec_only': False, 'w2v_size': 100})  # 字符unigrams + 元数据 + 相关性 + word2vec
+# parameters.append({'use_metadata_only': False, 'use_cond_prob': False, 'use_metadata': False, 'use_word2vec': True, 'use_word2vec_only': True, 'w2v_size': 100})  # word2vec
+# parameters.append({'use_metadata_only': False, 'use_cond_prob': False, 'use_metadata': False, 'use_active_clean': True, 'use_activeclean_only': True})  # active clean
+# parameters.append({'use_metadata_only': False, 'use_cond_prob': False, 'use_metadata': False, 'use_word2vec': True, 'use_word2vec_only': True, 'w2v_size': 100, 'use_boostclean_metadata': True})  # boostclean
+
+# LSTM特征
+# parameters.append({'use_metadata_only': False, 'use_metadata': False, 'use_cond_prob': False, 'use_lstm_only': True, 'use_lstm': True})  # LSTM
+
+# 特征名称
+feature_names = [#'char_unigrams',
+                 #'word_unigrams',
+                 #'metadata',
+                 #'char unigrams and bigrams',
+                 #'char unigrams + meta data',
+                 #'char unigrams + meta data + correlation',
+                 #'char unigrams + meta data + correlation + word2vec',
+                 'ed2'
+                 #'word2vec',
+                 #'ActiveClean',
+                 #'BoostClean',
+                 #'ED2 no error correlation',
+                 #'LSTM'
+                 ]
+
+# 分类器列表
+# classifiers = [SimplifiedXGBoostClassifier, XGBoostClassifier, LinearSVMClassifier, NaiveBayesClassifier]
+classifiers = [SimplifiedXGBoostClassifier]  # 用于测试的单个分类器
+
+def run_single_experiment(params):
+    """
+    运行单个实验
+    """
+    try:
+        # 提取参数
+        dataset = params['dataSet']
+        classifier = params['classifier_model']
+        exp_name = params['experiment_name']
+        
+        print "Running experiment: " + exp_name + " on " + dataset.name + " with " + classifier.name
+        
+        # 运行错误检测实验
+        result = run_error_detection_experiment(
+            train_dataSet=dataset,
+            classifier_model=classifier,
+            **params['feature_params']
+        )
+        
+        # 添加实验信息
+        result['experiment_name'] = exp_name
+        result['dataset_name'] = dataset.name
+        result['classifier_name'] = classifier.name
+        
+        return result
+        
+    except Exception as e:
+        print "Error in experiment " + params.get('experiment_name', 'unknown') + ": " + str(e)
+        return {
+            'error': str(e),
+            'experiment_name': params.get('experiment_name', 'unknown'),
+            'dataset_name': params.get('dataSet', {}).name if hasattr(params.get('dataSet'), 'name') else 'unknown',
+            'classifier_name': params.get('classifier_model', {}).name if hasattr(params.get('classifier_model'), 'name') else 'unknown'
+        }
+
+def prepare_experiments():
+    """
+    准备实验列表
+    """
+    experiments = []
+    
+    for dataset in data_list:
+        data = dataset()
+        
+        for param_i in xrange(len(parameters)):
+            for classifier in classifiers:
+                # 创建实验参数
+                exp_params = {
+                    'dataSet': data,
+                    'classifier_model': classifier,
+                    'experiment_name': data.name + "_" + classifier.name + "_" + feature_names[param_i],
+                    'feature_params': parameters[param_i].copy()
+                }
+                
+                # 添加额外的参数
+                exp_params['feature_params']['train_fraction'] = 0.8  # 使用80%的数据进行训练
+                exp_params['feature_params']['use_cv'] = True  # 使用交叉验证
+                
+                experiments.append(exp_params)
+    
+    return experiments
+
+def save_results(results, output_file):
+    """
+    保存实验结果到文件
+    """
+    with open(output_file, 'w') as f:
+        # 写入CSV头部
+        f.write("Experiment Name,Dataset Name,Classifier Name,F1 Score,Precision,Recall,Training Time,Train Samples,Test Samples\n")
+        
+        # 写入每个实验的结果
+        for result in results:
+            if 'error' in result:
+                f.write(result['experiment_name'] + "," + result['dataset_name'] + "," + result['classifier_name'] + ",ERROR,ERROR,ERROR,ERROR,ERROR,ERROR\n")
+            else:
+                overall = result['overall']
+                f.write(result['experiment_name'] + "," + result['dataset_name'] + "," + result['classifier_name'] + ",")
+                f.write("{0:.4f}".format(overall['f1']) + "," + "{0:.4f}".format(overall['precision']) + "," + "{0:.4f}".format(overall['recall']) + ",")
+                f.write("{0:.2f}".format(overall['training_time']) + "," + str(overall['total_train_samples']) + "," + str(overall['total_test_samples']) + "\n")
+
+def analyze_results(results):
+    """
+    分析实验结果
+    """
+    # 按数据集和分类器分组结果
+    dataset_results = {}
+    classifier_results = {}
+    feature_results = {}
+    
+    for result in results:
+        if 'error' in result:
+            continue
+            
+        dataset_name = result['dataset_name']
+        classifier_name = result['classifier_name']
+        
+        # 从实验名称中提取特征名称
+        feature_name = result['experiment_name'].replace(dataset_name + "_" + classifier_name + "_", "")
+        
+        # 按数据集分组
+        if dataset_name not in dataset_results:
+            dataset_results[dataset_name] = []
+        dataset_results[dataset_name].append(result)
+        
+        # 按分类器分组
+        if classifier_name not in classifier_results:
+            classifier_results[classifier_name] = []
+        classifier_results[classifier_name].append(result)
+        
+        # 按特征分组
+        if feature_name not in feature_results:
+            feature_results[feature_name] = []
+        feature_results[feature_name].append(result)
+    
+    # 打印数据集结果摘要
+    print "\n=== Dataset Results Summary ==="
+    for dataset, results_list in dataset_results.items():
+        avg_f1 = np.mean([r['overall']['f1'] for r in results_list])
+        avg_precision = np.mean([r['overall']['precision'] for r in results_list])
+        avg_recall = np.mean([r['overall']['recall'] for r in results_list])
+        print dataset + ": Avg F1={0:.4f}, Avg Precision={1:.4f}, Avg Recall={2:.4f}".format(avg_f1, avg_precision, avg_recall)
+    
+    # 打印分类器结果摘要
+    print "\n=== Classifier Results Summary ==="
+    for classifier, results_list in classifier_results.items():
+        avg_f1 = np.mean([r['overall']['f1'] for r in results_list])
+        avg_precision = np.mean([r['overall']['precision'] for r in results_list])
+        avg_recall = np.mean([r['overall']['recall'] for r in results_list])
+        print classifier + ": Avg F1={0:.4f}, Avg Precision={1:.4f}, Avg Recall={2:.4f}".format(avg_f1, avg_precision, avg_recall)
+    
+    # 打印特征结果摘要
+    print "\n=== Feature Results Summary ==="
+    for feature, results_list in feature_results.items():
+        avg_f1 = np.mean([r['overall']['f1'] for r in results_list])
+        avg_precision = np.mean([r['overall']['precision'] for r in results_list])
+        avg_recall = np.mean([r['overall']['recall'] for r in results_list])
+        print feature + ": Avg F1={0:.4f}, Avg Precision={1:.4f}, Avg Recall={2:.4f}".format(avg_f1, avg_precision, avg_recall)
+
+def main():
+    """
+    主函数
+    """
+    print "Preparing experiments..."
+    experiments = prepare_experiments()
+    print "Total experiments to run: " + str(len(experiments))
+    
+    # 运行实验
+    print "Running experiments..."
+    start_time = time.time()
+    
+    # 使用多进程运行实验
+    pool = mp.Pool(processes=mp.cpu_count())
+    results = pool.map(run_single_experiment, experiments)
+    pool.close()
+    pool.join()
+    
+    end_time = time.time()
+    print "All experiments completed in {0:.2f} seconds".format(end_time - start_time)
+    
+    # 保存结果
+    timestamp = time.strftime("%Y%m%d_%H%M%S")
+    output_file = os.path.join(path_folder, "experiment_results_" + timestamp + ".csv")
+    save_results(results, output_file)
+    print "Results saved to " + output_file
+    
+    # 分析结果
+    analyze_results(results)
+    
+    # 返回结果
+    return results
+
+if __name__ == "__main__":
+    results = main()

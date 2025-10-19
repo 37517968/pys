@@ -1,0 +1,510 @@
+row_index,column_index,column_name,clean_value,dirty_value
+0,16,MeasureName,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,surgery patients who were taking heart drugs caxxed beta bxockers before coming to the hospitax who were kept on the beta bxockers during the period just before and after their surgery
+3,6,City,birmingham,birminghxm
+7,6,City,birmingham,birmingxam
+10,6,City,sheffield,sheffxeld
+13,1,ProviderNumber,10019,1xx19
+16,11,HospitalType,acute care hospitals,acuxe care hospixals
+17,18,Sample,37 patients,3x patients
+21,14,Condition,heart attack,heart attaxk
+22,12,HospitalOwner,government - hospital district or authority,government - hospxtal dxstrxct or authorxty
+22,14,Condition,heart attack,hearx axxack
+24,10,PhoneNumber,3347938701,334793870x
+24,13,EmergencyService,yes,yxs
+26,2,HospitalName,southeast alabama medical center,southeast alabama medxcal center
+27,12,HospitalOwner,government - hospital district or authority,government - hospital xistrict or authority
+31,12,HospitalOwner,government - hospital district or authority,governmenx - hospixal disxricx or auxhorixy
+36,10,PhoneNumber,3347938701,xx479x8701
+39,11,HospitalType,acute care hospitals,acxte care hospitals
+42,7,State,al,xl
+42,12,HospitalOwner,government - hospital district or authority,gxvernment - hxspital district xr authxrity
+43,13,EmergencyService,yes,yex
+44,8,ZipCode,35957,x5957
+45,1,ProviderNumber,10005,x0005
+46,7,State,al,xl
+50,7,State,al,xl
+51,13,EmergencyService,yes,yxs
+56,6,City,boaz,boxz
+56,19,Stateavg,al_pn-3b,al_pn-xb
+57,3,Address1,2505 u s highway 431 north,2505xuxsxhighwayx431xnorth
+57,10,PhoneNumber,2565938310,2x6x938310
+60,10,PhoneNumber,2565938310,2x6x938310
+63,8,ZipCode,35957,3595x
+65,10,PhoneNumber,2565938310,2565x38310
+67,9,CountyName,marshall,mxrshxll
+69,19,Stateavg,al_ami-1,al_amx-1
+70,8,ZipCode,35631,3563x
+72,9,CountyName,lauderdale,laudxrdalx
+73,14,Condition,heart attack,hearx axxack
+77,9,CountyName,lauderdale,laudexdale
+79,6,City,florence,fxorence
+81,1,ProviderNumber,10006,1000x
+83,7,State,al,xl
+88,6,City,florence,florxncx
+91,18,Sample,619 patients,619 paxienxs
+93,6,City,florence,flxrence
+93,8,ZipCode,35631,3563x
+94,3,Address1,702 n main st,702xnxmainxst
+94,16,MeasureName,heart attack patients given aspirin at arrival,xeart attack patients given aspirin at arrival
+97,15,MeasureCode,ami-4,axi-4
+98,7,State,al,xl
+98,11,HospitalType,acute care hospitals,acute care hosxitals
+101,10,PhoneNumber,3344933541,3344x33541
+101,15,MeasureCode,hf-1,hfx1
+106,3,Address1,702 n main st,702 x maix st
+108,15,MeasureCode,pn-5c,pnx5c
+111,16,MeasureName,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,surgery patiexts who were takixg heart drugs called beta blockers before comixg to the hospital who were kept ox the beta blockers durixg the period just before axd after their surgery
+113,12,HospitalOwner,voluntary non-profit - private,volunxary non-profix - privaxe
+115,18,Sample,0 patients,0 patixnts
+119,7,State,al,ax
+119,16,MeasureName,heart attack patients given aspirin at arrival,heart attack patients given aspirin at arrivax
+120,15,MeasureCode,ami-2,axi-2
+120,17,Score,100%,x00%
+127,14,Condition,heart failure,heaxt failuxe
+131,2,HospitalName,crenshaw community hospital,crenshaw cxmmunity hxspital
+133,18,Sample,21 patients,21 pxtients
+136,9,CountyName,crenshaw,crxnshaw
+137,8,ZipCode,36049,36x49
+139,8,ZipCode,36049,360x9
+140,7,State,al,ax
+145,16,MeasureName,heart attack patients given aspirin at discharge,heart attaxk patients given aspirin at disxharge
+149,8,ZipCode,35640,3x640
+157,8,ZipCode,35640,3x640
+157,12,HospitalOwner,proprietary,pxopxietaxy
+157,13,EmergencyService,yes,yxs
+158,17,Score,98%,9x%
+159,12,HospitalOwner,proprietary,proxrietary
+161,3,Address1,201 pine street northwest,201 pine sxreex norxhwesx
+162,12,HospitalOwner,proprietary,xroprietary
+163,17,Score,57%,x7%
+164,12,HospitalOwner,proprietary,pxopxietaxy
+165,7,State,al,ax
+166,18,Sample,11 patients,xx patients
+170,18,Sample,6 patients,6xpatients
+171,2,HospitalName,marshall medical center north,marshall medical cenxer norxh
+175,3,Address1,8000 alabama highway 69,8000 alabama xigxway 69
+177,15,MeasureCode,hf-2,hf-x
+180,6,City,guntersville,guntxrsvillx
+182,7,State,al,xl
+187,17,Score,95%,95x
+190,15,MeasureCode,scip-inf-4,scip-inx-4
+193,19,Stateavg,al_scip-vte-2,al_scix-vte-2
+196,8,ZipCode,35235,3x23x
+199,11,HospitalType,acute care hospitals,acute care hosxitals
+199,14,Condition,heart attack,heaxt attack
+207,6,City,birmingham,birmixgham
+208,17,Score,95%,x5%
+210,16,MeasureName,pneumonia patients assessed and given influenza vaccination,pneumoniaxpatientsxassessedxandxgivenxinfluenzaxvaccination
+212,6,City,birmingham,bxrmxngham
+213,1,ProviderNumber,10011,x00xx
+213,11,HospitalType,acute care hospitals,acutx carx hospitals
+213,19,Stateavg,al_scip-inf-2,al_sxip-inf-2
+216,9,CountyName,jefferson,jeffersxn
+216,12,HospitalOwner,voluntary non-profit - private,volunxary non-profix - privaxe
+217,10,PhoneNumber,2058383122,2058x8x122
+218,12,HospitalOwner,voluntary non-profit - private,voluntary nonxprofit x private
+219,16,MeasureName,heart attack patients given aspirin at arrival,heartxattackxpatientsxgivenxaspirinxatxarrival
+221,9,CountyName,de kalb,dx kalb
+221,12,HospitalOwner,voluntary non-profit - church,voluntaryxnon-profitx-xchurch
+223,9,CountyName,de kalb,xe kalb
+224,18,Sample,1 patients,1 patiexts
+225,14,Condition,heart attack,hexrt attxck
+227,9,CountyName,de kalb,dx kalb
+228,6,City,fort payne,fort payxe
+228,7,State,al,ax
+228,10,PhoneNumber,2568453150,2568453x50
+229,14,Condition,heart failure,heart faxlure
+232,8,ZipCode,35968,359x8
+234,18,Sample,82 patients,82 patientx
+236,14,Condition,surgical infection prevention,suxgical infection pxevention
+237,17,Score,97%,9x%
+238,9,CountyName,de kalb,xe kalb
+238,12,HospitalOwner,voluntary non-profit - church,voxuntary non-profit - church
+238,17,Score,99%,xx%
+239,14,Condition,surgical infection prevention,surgxcal infectxon preventxon
+243,2,HospitalName,dekalb regional medical center,dexalb regional medical center
+244,1,ProviderNumber,10015,x00x5
+244,19,Stateavg,al_ami-1,ax_ami-1
+247,10,PhoneNumber,3346366221,xx46x66221
+247,12,HospitalOwner,government - federal,governxent - federal
+248,19,Stateavg,al_ami-5,xl_xmi-5
+252,9,CountyName,clarke,xlarke
+252,17,Score,89%,89x
+253,1,ProviderNumber,10015,1xx15
+256,14,Condition,pneumonia,xneumonia
+256,16,MeasureName,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,pneumonxa patxents whose inxtxal emergency room blood culture was performed prxor to the admxnxstratxon of the fxrst hospxtal dose of antxbxotxcs
+256,17,Score,96%,x6%
+260,3,Address1,33700 highway 43,33700 hxghway 43
+261,10,PhoneNumber,3346366221,334x3xx221
+264,3,Address1,33700 highway 43,33700 highway x3
+264,15,MeasureCode,scip-inf-3,scxp-xnf-3
+266,11,HospitalType,acute care hospitals,acuxe care hospixals
+267,8,ZipCode,36784,x6784
+269,19,Stateavg,al_ami-1,al_axi-1
+273,1,ProviderNumber,10016,1xx16
+275,3,Address1,1000 first street north,1000 fixst stxeet noxth
+278,7,State,al,xl
+279,14,Condition,heart failure,xeart failure
+280,11,HospitalType,acute care hospitals,acutexcarexhospitals
+281,16,MeasureName,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,pnxumonia patixnts whosx initial emxrgxncy room blood culturx was pxrformxd prior to thx administration of thx first hospital dosx of antibiotics
+283,8,ZipCode,35007,3x007
+290,8,ZipCode,35007,x5007
+290,16,MeasureName,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,all heart surgerx patients whose blood sugar (blood glucose) is kept under good control in the daxs right after surgerx
+293,11,HospitalType,acute care hospitals,acuxe care hospixals
+295,3,Address1,1720 university blvd,1720 univxrsity blvd
+311,6,City,anniston,axxistox
+312,9,CountyName,calhoun,calhoxn
+313,12,HospitalOwner,proprietary,prxprietary
+314,1,ProviderNumber,10038,100x8
+316,3,Address1,301 east 18th st,301xeastx18thxst
+316,18,Sample,29 patients,29 xatients
+318,13,EmergencyService,yes,xes
+321,10,PhoneNumber,2562358900,256235x900
+324,9,CountyName,calhoun,caxhoun
+325,8,ZipCode,36201,36x01
+327,13,EmergencyService,yes,yex
+332,8,ZipCode,36305,3x305
+332,12,HospitalOwner,proprietary,proxrietary
+332,13,EmergencyService,yes,yex
+334,3,Address1,4370 west main street,4370xwestxmainxstreet
+334,19,Stateavg,al_pn-2,al_pnx2
+336,17,Score,100%,x00%
+337,2,HospitalName,flowers hospital,floxers hospital
+340,8,ZipCode,36305,x6x05
+342,10,PhoneNumber,3347935000,xx479x5000
+346,9,CountyName,houston,housxon
+346,16,MeasureName,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries,surgery pxtients whose doctors ordered trextments to prevent blood clots xfter certxin types of surgeries
+347,19,Stateavg,al_scip-vte-2,al_scipxvtex2
+349,15,MeasureCode,ami-2,amix2
+350,3,Address1,810 st vincents drive,810 st vxncents drxve
+350,13,EmergencyService,yes,yxs
+354,18,Sample,10 patients,1x patients
+356,7,State,al,ax
+356,12,HospitalOwner,proprietary,prxprietary
+360,1,ProviderNumber,10086,100x6
+363,3,Address1,1530 u s highway 43,1530xuxsxhighwayx43
+366,8,ZipCode,35594,3xx94
+366,14,Condition,pneumonia,pnxumonia
+367,6,City,winfield,winfielx
+369,14,Condition,pneumonia,pnexmonia
+370,19,Stateavg,al_pn-7,alxpn-7
+373,19,Stateavg,al_scip-inf-2,al_sxip-inf-2
+374,13,EmergencyService,yes,yex
+375,8,ZipCode,35594,3xx94
+378,17,Score,95%,x5%
+380,16,MeasureName,heart attack patients given aspirin at discharge,heaxt attack patients given aspixin at dischaxge
+381,10,PhoneNumber,2514717110,25x47x7xx0
+384,2,HospitalName,univ of south alabama medical center,univ ox south alabama medical center
+384,10,PhoneNumber,2514717110,25x47x7xx0
+385,2,HospitalName,univ of south alabama medical center,xniv of soxth alabama medical center
+386,7,State,al,xl
+386,10,PhoneNumber,2514717110,25x47x7xx0
+386,14,Condition,heart failure,hxart failurx
+387,19,Stateavg,al_hf-2,al_hx-2
+389,13,EmergencyService,yes,yxs
+389,16,MeasureName,heart failure patients given smoking cessation advice/counseling,heart xailure patients given smoking cessation advice/counseling
+391,15,MeasureCode,pn-3b,pn-xb
+393,3,Address1,124 s memorial dr,124xsxmemorialxdr
+393,10,PhoneNumber,3343614267,33x361x267
+398,15,MeasureCode,hf-1,hx-1
+400,14,Condition,heart failure,hxart failurx
+402,7,State,al,ax
+405,17,Score,94%,x4%
+406,8,ZipCode,36067,3x0x7
+408,1,ProviderNumber,10108,x0x08
+409,15,MeasureCode,scip-inf-1,scipxinfx1
+410,13,EmergencyService,yes,yxs
+411,3,Address1,124 s memorial dr,124 s mxmorial dr
+411,11,HospitalType,acute care hospitals,acute care hosxitals
+411,17,Score,100%,1xx%
+413,11,HospitalType,acute care hospitals,acuxe care hospixals
+413,18,Sample,125 patients,125 patixnts
+415,3,Address1,315 w hickory st,315 w hickxry st
+415,9,CountyName,talladega,tallaxega
+418,13,EmergencyService,no,xo
+418,18,Sample,4 patients,4 xatients
+420,8,ZipCode,35150,x5150
+426,17,Score,97%,x7%
+428,8,ZipCode,35150,3x1x0
+431,3,Address1,315 w hickory st,315xwxhickoryxst
+434,16,MeasureName,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),heart faxlure patxents gxven ace inhxbxtor or arb for left ventrxcular systolxc dysfunctxon (lvsd)
+437,6,City,anchorage,anchoraxe
+444,18,Sample,521 patients,521 patiexts
+447,16,MeasureName,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),surgeryxpatientsxneedingxhairxremovedxfromxthexsurgicalxareaxbeforexsurgery& xwhoxhadxhairxremovedxusingxaxsaferxmethodx(electricxclippersxorxhairxremovalxcreamxï¿½cxnotxaxrazor)
+448,2,HospitalName,alaska regional hospital,xlxskx regionxl hospitxl
+449,12,HospitalOwner,proprietary,proxrietary
+451,3,Address1,po box 287,poxboxx287
+453,11,HospitalType,acute care hospitals,acute care hospitaxs
+456,9,CountyName,jefferson,jxffxrson
+456,12,HospitalOwner,government - hospital district or authority,gxvernment - hxspital district xr authxrity
+457,9,CountyName,jefferson,xefferson
+462,18,Sample,0 patients,x patients
+464,15,MeasureCode,scip-vte-1,sxip-vte-1
+465,9,CountyName,jefferson,jexxerson
+467,14,Condition,heart attack,hexrt attxck
+471,10,PhoneNumber,3347742601,334774x601
+472,3,Address1,126 hospital ave,126xhospitalxave
+473,16,MeasureName,heart failure patients given discharge instructions,heaxt failuxe patients given dischaxge instxuctions
+474,6,City,ozark,ozarx
+477,7,State,al,xl
+477,19,Stateavg,al_pn-2,ax_pn-2
+482,18,Sample,62 patients,62 patientx
+483,7,State,al,xl
+484,3,Address1,126 hospital ave,1x6 hospital ave
+485,6,City,ozark,xzark
+488,17,Score,100%,1xx%
+490,8,ZipCode,36360,x6x60
+490,11,HospitalType,acute care hospitals,acute caxe hospitals
+492,13,EmergencyService,yes,yxs
+493,11,HospitalType,acute care hospitals,acute care hxspitals
+493,12,HospitalOwner,voluntary non-profit - private,voluntaryxnon-profitx-xprivate
+493,16,MeasureName,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),hxart attack patixnts givxn ace inhibitor or arb for lxft vxntricular systolic dysfunction (lvsd)
+495,15,MeasureCode,ami-5,ami-x
+496,18,Sample,0 patients,0 patxents
+497,11,HospitalType,acute care hospitals,acutx carx hospitals
+499,8,ZipCode,35960,x5960
+502,9,CountyName,cherokee,chxrokxx
+502,18,Sample,44 patients,44 paxienxs
+504,7,State,al,ax
+506,14,Condition,pneumonia,pneumonix
+506,17,Score,93%,93x
+507,16,MeasureName,pneumonia patients assessed and given influenza vaccination,pneumonix pxtients assessed xnd given influenzx vxccinxtion
+511,11,HospitalType,acute care hospitals,acuxe care hospixals
+513,9,CountyName,cherokee,chxrokxx
+514,17,Score,100%,1xx%
+516,10,PhoneNumber,3342882100,3342xx2100
+517,6,City,montgomery,montxomery
+521,13,EmergencyService,yes,yxs
+523,18,Sample,257 patients,25x patients
+526,12,HospitalOwner,voluntary non-profit - church,volxntary non-profit - chxrch
+527,9,CountyName,montgomery,monxgomery
+532,2,HospitalName,baptist medical center south,baptist medical cexter south
+532,11,HospitalType,acute care hospitals,acute care hosxitals
+532,16,MeasureName,pneumonia patients assessed and given influenza vaccination,pxeumoxia patiexts assessed axd givex ixfluexza vaccixatiox
+532,18,Sample,87 patients,87 patientx
+536,13,EmergencyService,yes,yex
+540,9,CountyName,montgomery,montgomexy
+541,16,MeasureName,heart attack patients given aspirin at arrival,hexrt attxck pxtients given aspirin xt arrivxl
+544,8,ZipCode,36106,3x10x
+545,16,MeasureName,heart attack patients given beta blocker at discharge,heaxt attack patients given beta blockex at dischaxge
+546,18,Sample,0 patients,x patients
+548,10,PhoneNumber,3342938000,3342938xxx
+551,9,CountyName,montgomery,monxgomery
+554,18,Sample,74 patients,74 patxents
+555,14,Condition,pneumonia,pxeumoxia
+555,19,Stateavg,al_pn-5c,al_pn-5x
+559,1,ProviderNumber,10024,1xx24
+559,7,State,al,xl
+560,2,HospitalName,jackson hospital & clinic inc,jaxkson hospital & xlinix inx
+561,10,PhoneNumber,3342938000,33x2938000
+562,10,PhoneNumber,3342938000,3342938xxx
+562,16,MeasureName,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,allxheartxsurgeryxpatientsxwhosexbloodxsugarx(bloodxglucose)xisxkeptxunderxgoodxcontrolxinxthexdaysxrightxafterxsurgery
+564,13,EmergencyService,yes,xes
+564,19,Stateavg,al_scip-vte-1,al_scipxvtex1
+567,19,Stateavg,al_ami-2,xl_xmi-2
+572,7,State,al,ax
+572,10,PhoneNumber,3347561400,334x561400
+572,12,HospitalOwner,voluntary non-profit - other,voluntary non-profit - otxer
+578,6,City,valley,vallex
+578,9,CountyName,chambers,xhambers
+579,13,EmergencyService,yes,xes
+580,15,MeasureCode,pn-5c,px-5c
+580,18,Sample,50 patients,50 pxtients
+587,13,EmergencyService,yes,xes
+588,11,HospitalType,acute care hospitals,acuxe care hospixals
+588,18,Sample,172 patients,172 patxents
+590,6,City,valley,vxlley
+590,9,CountyName,chambers,chaxbers
+592,7,State,al,ax
+593,10,PhoneNumber,3348972257,33x8972257
+599,14,Condition,heart failure,heart faixure
+601,6,City,elba,exba
+602,9,CountyName,coffee,coffxx
+608,1,ProviderNumber,10027,x0027
+608,14,Condition,surgical infection prevention,surgical ixfectiox prevextiox
+612,16,MeasureName,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,all heaxt suxgexy patients whose blood sugax (blood glucose) is kept undex good contxol in the days xight aftex suxgexy
+622,19,Stateavg,al_ami-8a,al_amix8a
+627,1,ProviderNumber,10029,x0029
+628,13,EmergencyService,yes,yex
+631,14,Condition,pneumonia,pneumonxa
+633,9,CountyName,lee,xee
+634,11,HospitalType,acute care hospitals,acuxe care hospixals
+639,1,ProviderNumber,10029,1xx29
+639,15,MeasureCode,scip-vte-1,scip-vtx-1
+645,1,ProviderNumber,10032,1xx32
+646,19,Stateavg,al_ami-7a,alxami-7a
+648,15,MeasureCode,hf-1,hfx1
+650,16,MeasureName,heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),heart failure patients given ace inhibitor or arb for left xentricular systolic dysfunction (lxsd)
+651,16,MeasureName,heart failure patients given smoking cessation advice/counseling,heart faxlure patxents gxven smokxng cessatxon advxce/counselxng
+652,3,Address1,209 north main street,209 xorth maix street
+653,13,EmergencyService,no,xo
+654,2,HospitalName,wedowee hospital,wedowee hosxital
+654,6,City,wedowee,wxdowxx
+655,1,ProviderNumber,10032,1xx32
+666,10,PhoneNumber,2059344011,20593xx011
+668,18,Sample,87 patients,87 paxienxs
+672,9,CountyName,jefferson,jxffxrson
+672,16,MeasureName,heart attack patients given pci within 90 minutes of arrival,heartxattackxpatientsxgivenxpcixwithinx90xminutesxofxarrival
+673,15,MeasureCode,hf-1,xf-1
+673,18,Sample,618 patients,618 xatients
+674,13,EmergencyService,yes,yex
+676,15,MeasureCode,hf-4,hfx4
+678,19,Stateavg,al_pn-3b,alxpn-3b
+679,8,ZipCode,35233,3x233
+679,14,Condition,pneumonia,xneumonia
+685,8,ZipCode,35233,x52xx
+689,9,CountyName,jefferson,jexxerson
+690,6,City,birmingham,birminxham
+691,15,MeasureCode,ami-1,amix1
+692,9,CountyName,elmore,elmoxe
+694,15,MeasureCode,ami-4,amx-4
+695,11,HospitalType,acute care hospitals,acute cxre hospitxls
+695,14,Condition,heart attack,heart attaxk
+696,6,City,tallassee,tallaxxee
+697,2,HospitalName,community hospital inc,communitx hospital inc
+698,9,CountyName,elmore,elxore
+698,14,Condition,heart failure,hexrt fxilure
+698,17,Score,88%,xx%
+699,10,PhoneNumber,3342836541,334x836541
+701,7,State,al,xl
+704,1,ProviderNumber,10034,100x4
+705,11,HospitalType,acute care hospitals,acutexcarexhospitals
+705,16,MeasureName,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,pxeumoxia patiexts givex ixitial axtibiotic(s) withix 6 hours after arrival
+706,16,MeasureName,pneumonia patients given the most appropriate initial antibiotic(s),pxeumoxia patiexts givex the most appropriate ixitial axtibiotic(s)
+710,2,HospitalName,community hospital inc,communixy hospixal inc
+710,8,ZipCode,36078,36x78
+711,17,Score,100%,1xx%
+712,14,Condition,surgical infection prevention,surgical infection xrevention
+713,10,PhoneNumber,3342836541,33x28365x1
+713,16,MeasureName,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),surgery paxienxs needing hair removed from xhe surgical area before surgery who had hair removed using a safer mexhod (elecxric clippers or hair removal cream c nox a razor)
+716,14,Condition,heart attack,heartxattack
+718,15,MeasureCode,ami-3,amx-3
+718,17,Score,67%,x7%
+721,1,ProviderNumber,10035,100x5
+721,19,Stateavg,al_ami-7a,al_amx-7a
+722,9,CountyName,cullman,cxllman
+724,1,ProviderNumber,10035,1xx35
+729,11,HospitalType,acute care hospitals,acutexcarexhospitals
+729,15,MeasureCode,pn-4,px-4
+730,2,HospitalName,cullman regional medical center,cullmxn regionxl medicxl center
+730,9,CountyName,cullman,cxllman
+733,14,Condition,surgical infection prevention,suxgical infection pxevention
+735,15,MeasureCode,scip-inf-2,scix-inf-2
+736,3,Address1,1912 alabama highway 157,1912xalabamaxhighwayx157
+736,6,City,cullman,cuxxman
+744,12,HospitalOwner,proprietary,prxprietary
+749,15,MeasureCode,hf-2,hx-2
+750,8,ZipCode,36420,3642x
+751,10,PhoneNumber,3342228466,334xxx8466
+752,9,CountyName,covington,coxington
+755,1,ProviderNumber,10036,1xx36
+756,6,City,andalusia,andaluxia
+758,2,HospitalName,andalusia regional hospital,andaxusia regionax hospitax
+760,19,Stateavg,al_scip-inf-2,al_scipxinfx2
+763,10,PhoneNumber,3342228466,33422284xx
+764,7,State,al,xl
+764,19,Stateavg,al_scip-vte-1,al_scix-vte-1
+765,2,HospitalName,andalusia regional hospital,andaluxia regional hoxpital
+767,3,Address1,301 east 18th st,301 east 1xth st
+769,17,Score,93%,x3%
+772,6,City,anniston,annxston
+774,15,MeasureCode,cac-1,xax-1
+776,18,Sample,193 patients,193 paxienxs
+777,2,HospitalName,huntsville hospital,huntsvxlle hospxtal
+779,11,HospitalType,acute care hospitals,acutexcarexhospitals
+780,1,ProviderNumber,10039,1003x
+780,14,Condition,heart attack,heart attaxk
+782,11,HospitalType,acute care hospitals,acute care hospitaxs
+784,12,HospitalOwner,government - hospital district or authority,goverxmext - hospital district or authority
+785,9,CountyName,madison,madisxn
+785,16,MeasureName,heart failure patients given an evaluation of left ventricular systolic (lvs) function,heaxt failuxe patients given an evaluation of left ventxiculax systolic (lvs) function
+787,19,Stateavg,al_hf-4,al_hf-x
+788,15,MeasureCode,pn-2,pn-x
+789,1,ProviderNumber,10039,1xx39
+791,7,State,al,xl
+793,1,ProviderNumber,10039,100x9
+796,19,Stateavg,al_scip-inf-2,xl_scip-inf-2
+797,13,EmergencyService,yes,yxs
+798,9,CountyName,madison,madisox
+802,16,MeasureName,heart attack patients given aspirin at arrival,heart attack patxents gxven aspxrxn at arrxval
+809,13,EmergencyService,yes,xes
+814,11,HospitalType,acute care hospitals,axute care hospitals
+815,8,ZipCode,35903,x590x
+816,16,MeasureName,pneumonia patients given initial antibiotic(s) within 6 hours after arrival,pneumonix pxtients given initixl antibiotic(s) within 6 hours after arrivxl
+821,6,City,gadsden,gxdsden
+824,10,PhoneNumber,2564944000,2564944xxx
+827,19,Stateavg,al_ami-1,xl_xmi-1
+842,15,MeasureCode,pn-6,pnx6
+842,19,Stateavg,al_pn-6,al_pnx6
+845,18,Sample,4 patients,4 patiexts
+846,12,HospitalOwner,voluntary non-profit - private,voluntaxy non-pxofit - pxivate
+848,11,HospitalType,acute care hospitals,acute caxe hospitals
+849,3,Address1,1010 lay dam road,x0x0 lay dam road
+851,14,Condition,surgical infection prevention,surgical infxction prxvxntion
+855,6,City,hamilton,hamilxon
+855,10,PhoneNumber,2059216200,x059x16x00
+857,3,Address1,1256 military street south,1256 military street sxuth
+859,1,ProviderNumber,10044,1xx44
+860,17,Score,80%,80x
+865,10,PhoneNumber,2059216200,20x9216200
+865,15,MeasureCode,pn-4,px-4
+866,13,EmergencyService,yes,yxs
+866,18,Sample,121 patients,121 patiexts
+868,12,HospitalOwner,voluntary non-profit - private,voluxtary xox-profit - private
+869,14,Condition,surgical infection prevention,surgical ixfectiox prevextiox
+872,12,HospitalOwner,voluntary non-profit - private,voluntaxy non-pxofit - pxivate
+872,18,Sample,15 patients,15 patiexts
+877,11,HospitalType,acute care hospitals,acute care hoxpitalx
+878,1,ProviderNumber,10045,1xx45
+881,10,PhoneNumber,2059325966,x0593x5966
+883,10,PhoneNumber,2059325966,x0593x5966
+884,7,State,al,xl
+886,7,State,al,xl
+888,1,ProviderNumber,10045,x0045
+888,17,Score,85%,x5%
+889,13,EmergencyService,yes,yex
+893,16,MeasureName,pneumonia patients assessed and given influenza vaccination,pneumonia patients assessed and given influenza vaxxination
+895,6,City,fayette,faxette
+895,9,CountyName,fayette,fayexxe
+902,11,HospitalType,acute care hospitals,acutexcarexhospitals
+902,16,MeasureName,children who received reliever medication while hospitalized for asthma,childrenxwhoxreceivedxrelieverxmedicationxwhilexhospitalizedxforxasthma
+903,2,HospitalName,riverview regional medical center,rivxrvixw rxgional mxdical cxntxr
+905,18,Sample,126 patients,126 patxents
+915,3,Address1,600 south third street,600 souxh xhird sxreex
+915,16,MeasureName,heart failure patients given smoking cessation advice/counseling,hearx failure paxienxs given smoking cessaxion advice/counseling
+916,10,PhoneNumber,2565435200,x565435x00
+917,9,CountyName,etowah,etowxh
+919,13,EmergencyService,yes,yex
+920,19,Stateavg,al_pn-6,alxpn-6
+921,2,HospitalName,riverview regional medical center,xivexview xegional medical centex
+921,13,EmergencyService,yes,yxs
+922,2,HospitalName,riverview regional medical center,riverview rexional medical center
+922,7,State,al,ax
+923,8,ZipCode,35901,3590x
+926,11,HospitalType,acute care hospitals,acuxe care hospixals
+930,15,MeasureCode,ami-1,amix1
+933,1,ProviderNumber,10047,1xx47
+934,3,Address1,515 miranda st,515 miranda sx
+935,3,Address1,515 miranda st,515 miranxa st
+938,2,HospitalName,georgiana hospital,georgiaxa hospital
+943,9,CountyName,butler,butxer
+945,3,Address1,515 miranda st,515 mirxndx st
+949,6,City,georgiana,geoxgiana
+949,11,HospitalType,acute care hospitals,acute care hosxitals
+955,1,ProviderNumber,10049,1004x
+955,14,Condition,heart attack,hexrt attxck
+956,2,HospitalName,medical center enterprise,medixal xenter enterprise
+956,3,Address1,400 n edwards street,400xnxedwardsxstreet
+956,11,HospitalType,acute care hospitals,acute xare hospitals
+960,6,City,enterprise,enterprxse
+962,2,HospitalName,medical center enterprise,medxcal center enterprxse
+964,11,HospitalType,acute care hospitals,acutexcarexhospitals
+966,9,CountyName,coffee,cxffee
+968,6,City,enterprise,xntxrprisx
+972,18,Sample,27 patients,27 paxienxs
+974,14,Condition,surgical infection prevention,surgical xnfection prevention
+976,11,HospitalType,acute care hospitals,acutexcarexhospitals
+985,6,City,oneonta,onxonta
+986,3,Address1,150 gilbreath drive,150 gilxreath drive
+987,2,HospitalName,st vincents blount,st vincents bxount
+997,16,MeasureName,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,surgery pxtients who were txking hexrt drugs cxlled betx blockers before coming to the hospitxl who were kept on the betx blockers during the period just before xnd xfter their surgery

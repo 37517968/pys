@@ -1,0 +1,11 @@
+整体评估指标:
+F1 Score: 0.0000
+Precision: 0.0000
+Recall: 0.0000
+Training Time: 211.98 seconds
+Total Train Samples: 20440
+Total Test Samples: 20000
+True Negatives: 19491
+False Positives: 0
+False Negatives: 509
+True Positives: 0
