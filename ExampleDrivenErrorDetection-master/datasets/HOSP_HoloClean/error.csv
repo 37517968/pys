@@ -1,0 +1,6 @@
+error_type,affected_columns,error_description
+No Error,[],The data is clean and does not contain any errors. All values are accurate and consistent with the expected format.
+Typographical Error,['sample'],"In the second example, 'sample' is incorrectly written as '27 paxienxs', which is a typographical error. This type of error can lead to confusion and misinterpretation of the data."
+Formatting Error,['address1'],"In the fourth example, 'address1' contains extraneous characters and incorrect casing ('201 PINE SxREEx NORxHWESx'), indicating a formatting error. Such errors can hinder the ability to accurately locate or reference the address."
+Inconsistent Data Entry,['state'],"In the fifth example, the 'state' column has been incorrectly entered as 'xL' instead of 'AL'. This inconsistency can lead to significant issues in data analysis, as it may affect geographic categorization."
+No Change in Data,"['provider number', 'hospital name', 'address1', 'city', 'state', 'zip code', 'county name', 'phone number', 'hospital type', 'hospital owner', 'emergency service', 'condition', 'measure code', 'measure name', 'score', 'sample', 'stateavg']","The data remains unchanged between the dirty and clean examples, indicating no errors were present in this instance."

@@ -1,0 +1,18 @@
+column_name,related_columns,relation_type,relation_description
+provider number,"['hospital name', 'address1', 'city', 'state', 'zip code', 'county name', 'phone number', 'hospital type', 'hospital owner', 'emergency service', 'condition', 'measure code', 'measure name', 'score', 'sample', 'stateavg']",identifier,The provider number uniquely identifies each hospital and relates to all other columns as attributes of the hospital.
+hospital name,"['provider number', 'address1', 'city', 'state', 'zip code', 'county name', 'phone number', 'hospital type', 'hospital owner', 'emergency service']",dependency,The hospital name is dependent on the provider number and describes the entity represented by the other columns.
+address1,"['hospital name', 'city', 'state', 'zip code', 'county name']",attribute,Address1 provides location details related to the hospital name and is part of the hospital's address.
+city,"['address1', 'state', 'zip code', 'county name']",attribute,City is an attribute of the hospital's location and is related to the address and county.
+state,"['address1', 'city', 'zip code', 'county name']",attribute,State describes the geographical area of the hospital and relates to the address and city.
+zip code,"['address1', 'city', 'state', 'county name']",attribute,Zip code is part of the hospital's address and relates to the city and state.
+county name,"['address1', 'city', 'state', 'zip code']",attribute,County name provides further geographical context for the hospital's location.
+phone number,['hospital name'],attribute,Phone number is an attribute of the hospital and relates directly to the hospital name.
+hospital type,['hospital name'],attribute,Hospital type describes the category of the hospital and is associated with the hospital name.
+hospital owner,['hospital name'],attribute,Hospital owner indicates the ownership status of the hospital and is related to the hospital name.
+emergency service,['hospital name'],attribute,Emergency service indicates whether the hospital provides emergency services and relates to the hospital name.
+condition,"['hospital name', 'measure code', 'measure name', 'score', 'sample', 'stateavg']",dependency,Condition describes the specific medical focus of the hospital and is tied to performance measures.
+measure code,"['condition', 'measure name', 'score', 'sample', 'stateavg']",identifier,Measure code uniquely identifies a specific performance measure related to a condition.
+measure name,"['measure code', 'condition', 'score', 'sample', 'stateavg']",description,Measure name provides a descriptive label for the performance measure identified by the measure code.
+score,"['measure code', 'measure name', 'condition', 'sample', 'stateavg']",metric,Score quantifies the performance of the hospital regarding a specific measure and is related to the measure details.
+sample,"['measure code', 'measure name', 'score', 'condition', 'stateavg']",metric,Sample indicates the number of patients considered for the score and is related to the performance measures.
+stateavg,"['measure code', 'condition', 'score']",comparison,Stateavg provides a comparative average score for the state related to the specific measure.
