@@ -64,7 +64,7 @@ class BoostCleanMetaFeatures():
     def toNumber(self, value):
         try:
             return float(value)
-        except:
+        except Exception:
             return 0.0
 
     #Parsing/Type Errors
@@ -72,19 +72,19 @@ class BoostCleanMetaFeatures():
     def hasMonth(self, value):
         try:
             return dateutil.parser.parse(str(value)).month
-        except:
+        except Exception:
             return -1
 
     def hasDay(self, value):
         try:
             return dateutil.parser.parse(str(value)).day
-        except:
+        except Exception:
             return -1
 
     def hasYear(self, value):
         try:
             return dateutil.parser.parse(str(value)).year
-        except:
+        except Exception:
             return -1
 
     #address
@@ -94,7 +94,7 @@ class BoostCleanMetaFeatures():
             for tuple in address:
                 if tuple[1] == 'StreetName':
                     return True
-        except:
+        except Exception:
             return False
         return False
 
@@ -104,7 +104,7 @@ class BoostCleanMetaFeatures():
             for tuple in address:
                 if tuple[1] == 'PlaceName':
                     return True
-        except:
+        except Exception:
             return False
         return False
 
@@ -114,7 +114,7 @@ class BoostCleanMetaFeatures():
             for tuple in address:
                 if tuple[1] == 'StateName':
                     return True
-        except:
+        except Exception:
             return False
         return False
 
@@ -167,6 +167,6 @@ if __name__ == '__main__':
 
     f = BoostCleanMetaFeatures()
     f.fit(data.dirty_pd.values)
-    print f.transform(data.dirty_pd.values)
-    print f.get_feature_names(data)
-    print len(f.get_feature_names(data))
+    print(f.transform(data.dirty_pd.values))
+    print(f.get_feature_names(data))
+    print(len(f.get_feature_names(data)))

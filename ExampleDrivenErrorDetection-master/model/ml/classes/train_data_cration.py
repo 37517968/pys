@@ -27,7 +27,7 @@ def run_in_cllm_env(module_path, func_name, *args, **kwargs):
     for i, arg in enumerate(args):
         if isinstance(arg, pd.DataFrame):
             # 为 DataFrame 创建临时 CSV 文件
-            with tempfile.NamedTemporaryFile(mode='w', delete=False, suffix='_arg{0}.csv'.format(i)) as csv_file:
+            with tempfile.NamedTemporaryFile(mode='w', delete=False, suffix='_arg{0}.csv'.format(i), encoding='utf-8') as csv_file:
                 arg.to_csv(csv_file.name, index=False)
                 temp_files.append(csv_file.name)
                 processed_args.append("pd.read_csv('{0}')".format(csv_file.name))
@@ -39,7 +39,7 @@ def run_in_cllm_env(module_path, func_name, *args, **kwargs):
     for k, v in kwargs.items():
         if isinstance(v, pd.DataFrame):
             # 为 DataFrame 创建临时 CSV 文件
-            with tempfile.NamedTemporaryFile(mode='w', delete=False, suffix='_kwarg_{0}.csv'.format(k)) as csv_file:
+            with tempfile.NamedTemporaryFile(mode='w', delete=False, suffix='_kwarg_{0}.csv'.format(k), encoding='utf-8') as csv_file:
                 v.to_csv(csv_file.name, index=False)
                 temp_files.append(csv_file.name)
                 processed_kwargs[k] = "pd.read_csv('{0}')".format(csv_file.name)
@@ -80,7 +80,7 @@ def run_in_cllm_env(module_path, func_name, *args, **kwargs):
     
     script_content = '\n'.join(script_lines)
     
-    with tempfile.NamedTemporaryFile(mode='w', delete=False, suffix='.py') as script_file:
+    with tempfile.NamedTemporaryFile(mode='w', delete=False, suffix='.py', encoding='utf-8') as script_file:
         script_file.write(script_content)
         script_file_path = script_file.name
         temp_files.append(script_file_path)

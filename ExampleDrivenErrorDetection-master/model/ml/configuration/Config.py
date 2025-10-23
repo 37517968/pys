@@ -11,7 +11,7 @@ class Config:
     def load():
         dir_path = os.path.dirname(os.path.realpath(__file__))
 
-        configFile = open(dir_path + "/resources/" + str(socket.gethostname()) + ".properties")
+        configFile = open(dir_path + "/resources/" + str(socket.gethostname()) + ".properties", 'r', encoding='utf-8')
 
         with configFile as f:
             for line in f:

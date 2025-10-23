@@ -10,14 +10,14 @@ model_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__f
 root_path = os.path.dirname(model_path)
 sys.path.insert(0, model_path)
 
-from ml.active_learning.library import *
+from ml.classes.active_learning.library import *
 from ml.configuration.Config import Config
 from ml.features.CompressedDeepFeatures import read_compressed_deep_features
 from sklearn.metrics import confusion_matrix, f1_score, precision_score, recall_score
-from ml.Word2VecFeatures.Word2VecFeatures import Word2VecFeatures
-from ml.features.ActiveCleanFeatures import ActiveCleanFeatures
-from ml.features.ValueCorrelationFeatures import ValueCorrelationFeatures
-from ml.features.BoostCleanMetaFeatures import BoostCleanMetaFeatures
+# from ml.Word2VecFeatures.Word2VecFeatures import Word2VecFeatures
+# from ml.features.ActiveCleanFeatures import ActiveCleanFeatures
+# from ml.features.ValueCorrelationFeatures import ValueCorrelationFeatures
+# from ml.features.BoostCleanMetaFeatures import BoostCleanMetaFeatures
 from ml.classes.train_data_cration import create_original_train_data
 from ml.classes.train_data_cration import create_next_train_data
 from ml.datasets.DataSet import DataSet
@@ -29,7 +29,7 @@ def go_to_next_column_prob(diff_certainty):
 	for key in diff_certainty.keys():
 		certainty_columns[key] = (np.sum(diff_certainty[key]) / len(diff_certainty[key])) * 2
 
-	return min(certainty_columns.iteritems(), key=operator.itemgetter(1))[0]
+	return min(certainty_columns.items(), key=operator.itemgetter(1))[0]
 
 
 def go_to_next_column_round(column_id, dataSet):
@@ -51,9 +51,9 @@ def go_to_next_column(dataSet, statistics,
 	if use_min_certainty_column_selection:
 		return go_to_next_column_prob(statistics['certainty'])
 	if use_max_pred_change_column_selection:
-		return max(statistics['change'].iteritems(), key=operator.itemgetter(1))[0]
+		return max(statistics['change'].items(), key=operator.itemgetter(1))[0]
 	if use_max_error_column_selection:
-		return min(statistics['cross_val_f'].iteritems(), key=operator.itemgetter(1))[0]
+		return min(statistics['cross_val_f'].items(), key=operator.itemgetter(1))[0]
 	if use_random_column_selection:
 		return go_to_next_column_random(dataSet)
 
@@ -64,7 +64,7 @@ def go_to_next_column(dataSet, statistics,
 def run_multi( params):
 	try:
 		return run(**params)
-	except:
+	except Exception:
 		return_dict = {}
 		return_dict['labels'] = []
 		return_dict['fscore'] = []
@@ -184,8 +184,8 @@ def run(dataSet,
 
 		dataSet = DataSet(dataSet.name, dirty_pd, clean_pd, train_indices, dataSet.test_indices)
 		if not data_save_path is None:
-			dataSet.dirty_pd[dataSet.train_indices].to_csv(data_save_path + 'enhanced_dirty.csv', index=False)
-			dataSet.clean_pd[dataSet.train_indices].to_csv(data_save_path + 'enhanced_clean.csv', index=False)
+			pd.DataFrame(dataSet.dirty_pd.values[dataSet.train_indices,:]).to_csv(data_save_path + 'enhanced_dirty.csv', index=False)
+			pd.DataFrame(dataSet.clean_pd.values[dataSet.train_indices,:]).to_csv(data_save_path + 'enhanced_clean.csv', index=False)
 
 		# 记录特征创建开始时间
 		feature_start_time = time.time()
@@ -241,7 +241,7 @@ def run(dataSet,
 		all_error_pred = np.zeros((all_matrix_test.shape[0], dataSet.shape[1]), dtype=float)
 
 		for column_id in range(dataSet.shape[1]):
-			print("column: " + str(column_id))
+			print("column: {}".format(column_id))
 
 			target_run, _ = getTarget(dataSet, column_id, train_indices, test_indices)
 
@@ -249,6 +249,7 @@ def run(dataSet,
 			
 			train_X = all_matrix_train
 			train_y = target_run
+			train_y = train_y.astype(int)
 
 			# 确保交叉验证的折数至少为5，避免num_errors为1及以下时出错
 			folds = 5

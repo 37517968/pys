@@ -4,14 +4,9 @@
 import re
 import sys
 import pandas
-try:
-    # Python 3.x
-    import html
-    html_unescape = html.unescape
-except ImportError:
-    # Python 2.x
-    import HTMLParser
-    html_unescape = HTMLParser.HTMLParser().unescape
+# Python 3.x
+import html
+html_unescape = html.unescape
 ########################################
 
 

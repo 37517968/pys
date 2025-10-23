@@ -1,8 +1,5 @@
 import numpy as np
-from ml.datasets.DataSetBasic import DataSetBasic
-import numpy as np
-
-from ml.datasets.DataSetBasic import DataSetBasic
+from .DataSetBasic import DataSetBasic
 
 
 class DataSet(DataSetBasic):

@@ -58,7 +58,7 @@ class ActiveCleanFeatures():
             data.append(row_str)
 
         try:
-            text = [unicodedata.normalize('NFKD', unicode(row_txt, errors='replace')).encode('ascii', 'ignore')
+            text = [unicodedata.normalize('NFKD', str(row_txt, errors='replace')).encode('ascii', 'ignore')
                     for row_txt in data]
         except TypeError:
             text = [unicodedata.normalize('NFKD', row_txt).encode('ascii', 'ignore')
@@ -86,9 +86,9 @@ if __name__ == '__main__':
 
     f = ActiveCleanFeatures()
     f.fit(data.dirty_pd.values)
-    print f.transform(data.dirty_pd.values)
+    print(f.transform(data.dirty_pd.values))
 
     for f_n in f.get_feature_names():
-        print f_n
+        print(f_n)
 
-    print len(f.get_feature_names())
+    print(len(f.get_feature_names()))

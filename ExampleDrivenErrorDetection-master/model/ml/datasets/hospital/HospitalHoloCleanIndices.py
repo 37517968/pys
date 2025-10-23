@@ -43,11 +43,11 @@ class HospitalHoloClean(DataSet):
         for i in range(len(columns)):
             mapColumns[columns[i]] = i
 
-        #print "shape: " + str(df.shape[0])
-        #print "column: " + str(len(columns))
+        #print("shape: " + str(df.shape[0]))
+        #print("column: " + str(len(columns)))
 
         pd_matrix = df.values
-        matrix = np.empty([df.shape[0] / len(columns), len(columns)], dtype=object)
+        matrix = np.empty([df.shape[0] // len(columns), len(columns)], dtype=object)
 
         for i in range(len(pd_matrix)):
             name = str(pd_matrix[i][1])
@@ -61,4 +61,4 @@ class HospitalHoloClean(DataSet):
 
 
     def validate(self):
-        print "validate"
+        print("validate")

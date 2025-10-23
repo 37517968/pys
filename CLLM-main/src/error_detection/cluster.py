@@ -5,7 +5,6 @@ import pandas as pd
 import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import pairwise_distances
 
 def get_representative_samples_error(dirty_dataframe, clean_dataframe, n_clusters=10, similarity_metric='euclidean'):
     """
@@ -152,7 +151,7 @@ def get_representative_samples_with_clean(dirty_dataframe, clean_dataframe, n_cl
         elif similarity_metric == 'cosine':
             distance = 1 - np.dot(scaled_data[i], center) / (np.linalg.norm(scaled_data[i]) * np.linalg.norm(center))
         else:
-            raise ValueError("不支持的相似性度量方法: {}".format(similarity_metric))
+            raise ValueError(f"不支持的相似性度量方法: {similarity_metric}")
         distances.append(distance)
     
     dirty_df['cluster'] = clusters
@@ -311,5 +310,5 @@ def restore_original_data(numeric_samples, original_dataframe):
         try:
             original_samples = original_dataframe.loc[numeric_samples.index].copy()
             return original_samples
-        except:
+        except Exception:
             raise ValueError("无法从数值型样本恢复原始数据：缺少原始索引信息")

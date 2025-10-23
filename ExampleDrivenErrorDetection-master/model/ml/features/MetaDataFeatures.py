@@ -47,8 +47,8 @@ class MetaDataFeatures:
         for i in range(data.shape[0]):
             value = data[i, column_id]
             try:
-                feature[i] = len(str(value.encode('utf-8')))
-            except:
+                feature[i] = len(str(value))
+            except Exception:
                 feature[i] = len(str(value))
         return feature, 'string_length'
 
@@ -92,7 +92,7 @@ class MetaDataFeatures:
                 new_feature, feature_name = feature_method(data, c)
                 feature_list.append(new_feature)
                 feature_name_list.append('?' + str(columns[c]) + "_" + feature_name)
-                print "Finished " + feature_name + " -> " + str(new_feature.shape)
+                print("Finished " + feature_name + " -> " + str(new_feature.shape))
 
         metadata_features = hstack(feature_list)
 

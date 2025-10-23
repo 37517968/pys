@@ -55,25 +55,28 @@ class XGBoostClassifier(object):
                      'subsample': [0.7, 0.8, 0.9],
                      'max_depth': [3, 5, 7]}
 
-        ind_params = {  # 'min_child_weight': 1, # we could optimize this: 'min_child_weight': [1, 3, 5]
-            'learning_rate': 0.1,  # we could optimize this: 'learning_rate': [0.1, 0.01]
-            'colsample_bytree': 0.8,
-            'silent': 1,
-            'seed': 0,
-            'objective': 'binary:logistic',
-            'n_jobs': 4
-        }
+        ind_params = {
+                        'learning_rate': 0.1,
+                        'colsample_bytree': 0.8,
+                        'verbosity': 0,           # ✅ 取代 silent
+                        'random_state': 0,        # ✅ 替代 seed
+                        'base_score': 0.5,        # ✅ 避免 base_score=0 报错
+                        'objective': 'binary:logistic',
+                        'n_jobs': 4,
+                        'eval_metric': 'logloss'  # ✅ 新版本推荐明确指定
+                    }
+
 
         if self.balance:
             ratio = float(np.sum(train_target == False)) / np.sum(train_target == True)
-            print "weight ratio: " + str(ratio)
+            print("weight ratio: " + str(ratio))
             ind_params['scale_pos_weight'] = ratio
 
         optimized_GBM = GridSearchCV(xgb.XGBClassifier(**ind_params),
                                      cv_params,
                                      scoring='f1', cv=folds, n_jobs=1, verbose=0)
 
-        print train.shape
+        print(train.shape)
 
         optimized_GBM.fit(train, train_target)
 
@@ -87,7 +90,7 @@ class XGBoostClassifier(object):
     def train_predict_all(self, x, y, column_id, x_all, feature_names=None, column_names=None):
         if self.balance:
             ratio = float(np.sum(y == False)) / np.sum(y == True)
-            print "weight ratio: " + str(ratio)
+            print("weight ratio: " + str(ratio))
             self.params[column_id]['scale_pos_weight'] = ratio
 
         # 不指定特征名称，让XGBoost自动处理
@@ -96,7 +99,7 @@ class XGBoostClassifier(object):
 
         if feature_names != None:
             all_trees = self.model[column_id].get_dump()
-            print "number trees:" + str(len(all_trees))
+            print("number trees:" + str(len(all_trees)))
 
             plot_tree(self.model[column_id])
 
@@ -114,7 +117,7 @@ class XGBoostClassifier(object):
     def train_predict_all(self, x, y, column_id, x_all):
         if self.balance:
             ratio = float(np.sum(y == False)) / np.sum(y == True)
-            print "weight ratio: " + str(ratio)
+            print("weight ratio: " + str(ratio))
             self.params[column_id]['scale_pos_weight'] = ratio
 
         # 不指定特征名称，让XGBoost自动处理
@@ -148,7 +151,7 @@ class XGBoostClassifier(object):
     def train_predict_all(self, x, y, column_id, x_all, x_all_test):
         if self.balance:
             ratio = float(np.sum(y == False)) / np.sum(y == True)
-            print "weight ratio: " + str(ratio)
+            print("weight ratio: " + str(ratio))
             self.params[column_id]['scale_pos_weight'] = ratio
 
         # 不指定特征名称，让XGBoost自动处理

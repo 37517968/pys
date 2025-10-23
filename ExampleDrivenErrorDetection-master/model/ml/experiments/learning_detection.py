@@ -10,7 +10,7 @@ import sys
 model_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.insert(0, model_path)
 
-from ml.active_learning.classifier.XGBoostClassifier import XGBoostClassifier
+from ml.classes.active_learning.classifier.XGBoostClassifier import XGBoostClassifier
 from ml.datasets.hospital.HospitalHoloCleanIndices import HospitalHoloClean
 from ml.classes.active_learning_total_uncertainty_error_correlation_lib import run
 

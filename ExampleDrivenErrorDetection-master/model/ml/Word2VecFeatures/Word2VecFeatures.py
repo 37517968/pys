@@ -62,7 +62,7 @@ class Word2VecFeatures():
             self.column_dictionaries.append(col_val2word)
 
         # train word2vec
-        self.model = Word2Vec(words.tolist(), size=self.vector_size, window=words.shape[1] * 2, min_count=1, workers=4, negative=0, hs=1)
+        self.model = Word2Vec(words.tolist(), vector_size=self.vector_size, window=words.shape[1] * 2, min_count=1, workers=4, negative=0, hs=1)
         self.model.train(words.tolist(), total_examples=words.shape[0], epochs=self.epochs)
 
     def transform(self, data):
@@ -79,7 +79,7 @@ class Word2VecFeatures():
             for row_i in range(words.shape[0]):
                 try:
                     final_matrix[row_i, column_i * self.vector_size:(column_i + 1) * self.vector_size] = self.model[words[row_i, column_i]]
-                except:
+                except Exception:
                     pass
 
         return final_matrix
@@ -92,4 +92,4 @@ if __name__ == '__main__':
 
     f = Word2VecFeatures()
     f.fit(data.dirty_pd.values)
-    print f.transform(data.dirty_pd.values)
+    print(f.transform(data.dirty_pd.values))
