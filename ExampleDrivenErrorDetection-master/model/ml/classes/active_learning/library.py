@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import os
 import sys
-sys.path.append('../..')
-sys.path.append('../../..')
+model_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
+sys.path.insert(0, model_path)
 import operator
 import random
 import warnings
