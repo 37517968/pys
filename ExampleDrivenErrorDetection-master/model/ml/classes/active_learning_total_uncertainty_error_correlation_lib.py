@@ -84,7 +84,7 @@ def run(dataSet,
 		 use_boostclean_metadata=False, # 是否使用 BoostClean 系列算法专用的元数据增强
 		 w2v_size=100, # Word2Vec向量大小，默认为100
 		 isSave=True, # 是否保存模型
-		 model_load_iteration=1, # 模型加载迭代轮数
+		 model_load_iteration=0, # 模型加载迭代轮数
 		 data_save_path=None
 		 ):
 	# 初始化变量
@@ -302,8 +302,8 @@ def run(dataSet,
 				print("模型保存失败: {}".format(str(e)))
 			
 			# 保存训练数据
-			data_save_path = "{}/train_data_{}.pkl".format(model_dir, current_iteration)
-			print("保存训练数据到: {}".format(data_save_path))
+			data_model_save_path = "{}/train_data_{}.pkl".format(model_dir, current_iteration)
+			print("保存训练数据到: {}".format(data_model_save_path))
 			try:
 				train_data_to_save = {
 					'train_dirty_df': train_dirty_df,
@@ -314,7 +314,7 @@ def run(dataSet,
 					'train_indices': train_indices,
 					'all_error_pred': all_error_pred
 				}
-				with open(data_save_path, 'wb') as f:
+				with open(data_model_save_path, 'wb') as f:
 					pickle.dump(train_data_to_save, f)
 				print("训练数据保存成功")
 			except Exception as e:
